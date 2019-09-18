@@ -4,14 +4,21 @@ import photo from './personal_photo.jpeg';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <div className="Top-bar">
-        <a className="Link" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
-        <a className="Link" href="https://github.com/SheaMeyers">Github</a>
+    <div className="App-body">
+      <div className="Header-bar">
+          <div className="Header-bar-div">
+            <a className="Link" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
+          </div>
+          <div className="Header-bar-div">
+              <a className="Link" href="https://github.com/SheaMeyers">Github</a>
+          </div>
       </div>
-      <img src={photo} alt="logo" />
-      <div>
-        This is my personal website
+      <div className="Main-body">
+          <img className="Photo" src={photo} alt="logo" />
+          <div className="Main-body-text">
+              <p>Hello, my name is Shea Meyers and I am a full stack web developer.</p>
+              <p>My programming interested are primarily ReactJS, NodeJS, and Python/Django</p>
+          </div>
       </div>
     </div>
   );

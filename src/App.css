@@ -1,0 +1,11 @@
+.Top-bar {
+    height: 50px;
+    width: 100%;
+    background-color: #b3b3b3;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.Link {
+    font-weight: bold;
+}

@@ -16,8 +16,9 @@ const App: React.FC = () => {
       <div className="Main-body">
           <img className="Photo" src={photo} alt="logo" />
           <div className="Main-body-text">
+              <h3>About Me</h3>
               <p>Hello, my name is Shea Meyers and I am a full stack web developer.</p>
-              <p>My programming interested are primarily ReactJS, NodeJS, and Python/Django</p>
+              <p>My programming interested are primarily related to ReactJS, NodeJS, and Python/Django</p>
           </div>
       </div>
     </div>

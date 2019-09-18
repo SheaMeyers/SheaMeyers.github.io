@@ -10,7 +10,7 @@
     height: 50px;
     width: 100%;
     background-color: #b3b3b3;
-    border-bottom: 1px solid black;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .Header-bar-div {
@@ -34,4 +34,10 @@
 
 .Main-body-text {
     flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+    .Main-body {
+        flex-direction: column;
+    }
 }

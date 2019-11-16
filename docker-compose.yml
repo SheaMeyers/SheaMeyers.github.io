@@ -1,7 +1,9 @@
 version: '3.7'
 services:
   react:
-    build: .
+    build:
+      dockerfile: Dockerfile.dev
+      context: .
     hostname: web
     ports:
       - "3000:3000"

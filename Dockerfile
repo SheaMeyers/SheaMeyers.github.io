@@ -2,8 +2,6 @@ FROM node:alpine as builder
 WORKDIR .
 COPY package*.json ./
 RUN npm ci --only=production
-
-# Bundle app source
 COPY . .
 RUN npm run build
 

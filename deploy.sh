@@ -1,6 +1,6 @@
 # Deploy script for deploying to GKE
 
-gcloud components update kubectl --no-input
+gcloud components update kubectl
 
 gcloud config set project shea-meyers-personal-website
 

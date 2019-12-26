@@ -7,13 +7,13 @@ const App: React.FC = () => {
         <div className="App-body">
             <div className="Header-bar">
                 <div className="Header-bar-div">
-                    <a className="Link" target="_blank" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
+                    <a className="Link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
                 </div>
                 <div className="Header-bar-div">
-                    <a className="Link" target="_blank" href="https://github.com/SheaMeyers">Github</a>
+                    <a className="Link" target="_blank" rel="noopener noreferrer" href="https://github.com/SheaMeyers">Github</a>
                 </div>
                 <div className="Header-bar-div">
-                    <a className="Link" target="_blank" href="https://opportunity-cost-calculator.com">Opportunity Cost Calculator</a>
+                    <a className="Link" target="_blank" rel="noopener noreferrer" href="https://opportunity-cost-calculator.com">Opportunity Cost Calculator</a>
                 </div>
             </div>
             <div className="Main-body">

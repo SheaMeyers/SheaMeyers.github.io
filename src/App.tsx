@@ -7,10 +7,13 @@ const App: React.FC = () => {
         <div className="App-body">
             <div className="Header-bar">
                 <div className="Header-bar-div">
-                    <a className="Link" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
+                    <a className="Link" target="_blank" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
                 </div>
                 <div className="Header-bar-div">
-                    <a className="Link" href="https://github.com/SheaMeyers">Github</a>
+                    <a className="Link" target="_blank" href="https://github.com/SheaMeyers">Github</a>
+                </div>
+                <div className="Header-bar-div">
+                    <a className="Link" target="_blank" href="https://opportunity-cost-calculator.com">Opportunity Cost Calculator</a>
                 </div>
             </div>
             <div className="Main-body">
@@ -18,7 +21,8 @@ const App: React.FC = () => {
                 <div className="Main-body-text">
                     <h3>About Me</h3>
                     <p>Hello, my name is Shea Meyers and I am a full stack web developer</p>
-                    <p>My programming interested are primarily related to ReactJS, NodeJS, and Python/Django</p>
+                    <p>My programming interests are primarily related to ReactJS, NodeJS, and Python/Django</p>
+                    <p>I'm also interested in Docker and Kubernetes (this site is hosted using Google Kubernetes Engine)</p>
                     <p>Born and raised in Canada I now reside in The Netherlands</p>
                 </div>
             </div>

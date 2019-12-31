@@ -1,0 +1,43 @@
+.App-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    background-color: #b3b3b3;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.Header-bar-div {
+    margin: 20px;
+}
+
+.Link {
+    font-weight: bold;
+}
+
+.Photo {
+    margin-right: 30px;
+}
+
+.Main-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.Main-body-text {
+    flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+    .Main-body {
+        flex-direction: column;
+    }
+}

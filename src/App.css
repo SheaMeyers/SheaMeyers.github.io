@@ -1,6 +1,11 @@
+html, body, #root {
+    height: 100%;
+}
+
 .App-body {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .Header-bar {
@@ -34,18 +39,21 @@
 }
 
 .Photo {
-    margin-right: 30px;
+    margin: 0;
+    width: 325px;
 }
 
 .Main-body {
-    flex-grow: 1;
     display: flex;
-    flex-direction: row;
-    padding: 30px;
+    padding: 2px 0 0 0;
 }
 
 .Main-body-text {
-    flex-grow: 1;
+    flex-grow: 1;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 600px) {

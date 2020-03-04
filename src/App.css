@@ -14,11 +14,23 @@
 }
 
 .Header-bar-div {
-    margin: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.Header-bar-div:hover {
+    background: white;
 }
 
 .Link {
     font-weight: bold;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
 }
 
 .Photo {

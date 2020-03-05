@@ -25,10 +25,9 @@ const App: React.FC = () => {
                 </div>
             </div>
             <div className="Bottom-portion">
-                    <h3>Quick About Me</h3>
-                    <p>My programming interests are primarily related to ReactJS, NodeJS, and Python/Django</p>
-                    <p>I'm also a big fan of in Docker and Kubernetes</p>
-                    <p>Born and raised in Canada I now reside in The Netherlands</p>
+                    <p className="Bottom-portion--text">My programming interests are primarily related to ReactJS, NodeJS, and Python/Django</p>
+                    <p className="Bottom-portion--text">I'm also a big fan of in Docker and Kubernetes</p>
+                    <p className="Bottom-portion--text">Born and raised in Canada I now reside in The Netherlands</p>
             </div>
         </div>
     );

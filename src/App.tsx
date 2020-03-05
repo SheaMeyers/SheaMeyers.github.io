@@ -6,11 +6,16 @@ const App: React.FC = () => {
     return (
         <div className="App-body">
             <div className="Header-bar">
-                <div className="Header-bar--link-div">
-                    <a className="Link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
+                <div>
+                    About Me
                 </div>
-                <div className="Header-bar--link-div">
-                    <a className="Link" target="_blank" rel="noopener noreferrer" href="https://github.com/SheaMeyers">Github</a>
+                <div className="Header-bar--left">
+                    <div className="Header-bar--link-div">
+                        <a className="Link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
+                    </div>
+                    <div className="Header-bar--link-div">
+                        <a className="Link" target="_blank" rel="noopener noreferrer" href="https://github.com/SheaMeyers">Github</a>
+                    </div>
                 </div>
             </div>
             <div className="Quick-summary">

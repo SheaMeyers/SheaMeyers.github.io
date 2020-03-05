@@ -11,11 +11,16 @@ html, body, #root {
 .Header-bar {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     height: 50px;
     width: 100%;
     background-color: #b3b3b3;
     box-shadow: 0 4px 2px -2px gray;
+}
+
+.Header-bar--left {
+    display: flex;
+    height: 100%;
 }
 
 .Header-bar--link-div {
@@ -80,4 +85,6 @@ html, body, #root {
 
 .Bottom-portion--text {
     font-size: 20px;
+    font-weight: bold;
+    font-family: auto;
 }

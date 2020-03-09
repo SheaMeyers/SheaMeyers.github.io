@@ -7,7 +7,7 @@ const Home: React.FC = () => {
         <div className="Home-body">
             <div className="Header-bar">
                 <div>
-                    About Me
+                    About Me TEST
                 </div>
                 <div className="Header-bar--left">
                     <div className="Header-bar--link-div">

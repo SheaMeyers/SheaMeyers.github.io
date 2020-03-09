@@ -1,17 +1,19 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
+import history from "./history";
 import Home from './Home';
+import NotFoundPage from './NotFoundPage';
 
 const App: React.FC = () => {
     return (
-        <BrowserRouter>
+        <Router history={history}>
             <Switch>
-                <Route path="/" component={Home} exact={true} />
+                <Route path="/" exact component={Home} />
                 {/* <Route path="/about-me" component={AboutMe}/> */}
                 {/* <Route path="/projects" component={Projects}/> */}
-                {/* <Route component={NotFoundPage}/>  */}
+                <Route component={NotFoundPage}/> 
             </Switch>
-        </BrowserRouter>
+        </Router>
     )
 }
 

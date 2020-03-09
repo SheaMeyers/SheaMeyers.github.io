@@ -1,15 +1,21 @@
 import React from 'react';
-import './Home.css';
+import { Link } from 'react-router-dom';
 import photo from './personal_photo.jpeg';
+import './Home.css';
 
 const Home: React.FC = () => {
     return (
         <div className="Home-body">
             <div className="Header-bar">
-                <div>
-                    About Me TEST
+                <div className="Header-bar--link-group">
+                    <div className="Header-bar--link-div">
+                        <Link className="Link" to={'/about-me'}>About Me</Link>
+                    </div>
+                    <div className="Header-bar--link-div">
+                        <Link className="Link" to={'/project'}>Projects</Link>
                 </div>
-                <div className="Header-bar--left">
+                </div>
+                <div className="Header-bar--link-group">
                     <div className="Header-bar--link-div">
                         <a className="Link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
                     </div>

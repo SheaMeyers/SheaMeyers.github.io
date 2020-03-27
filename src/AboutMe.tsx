@@ -63,6 +63,16 @@ const AboutMe: React.FC = () => {
                     and began looking for jobs in The Netherlands
                 </p>
             </div>
+            <div className="About-me-grey-section">
+                <p>
+                    After many job applications and a few interviews I received a job working with the company Calendar42.  
+                    Which would eventually be rebranded to Toogethr.
+                </p>
+                <p>
+                    After three and half years of working at Toogethr I decided I was interested in a new challenge and 
+                    got a new job where I am currently working, Maykin Media.
+                </p>
+            </div>
         </div>
     );
 };

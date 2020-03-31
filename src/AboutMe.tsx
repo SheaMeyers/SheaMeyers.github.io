@@ -56,10 +56,10 @@ const AboutMe: React.FC = () => {
             </div>
             <div className="About-me-off-white-section">
                 <p>
-                    While I enjoyed working at Vendasta I always kept in mind my dream of living abroad
+                    While I enjoyed working at Vendasta I always kept in mind my dream of living abroad and
                 </p>
                 <p>
-                    After year and a half of work I decided I had enough industry experience and money saved up 
+                    after year and a half of work I decided I had enough industry experience and money saved up 
                     and began looking for jobs in The Netherlands
                 </p>
             </div>
@@ -71,6 +71,39 @@ const AboutMe: React.FC = () => {
                 <p>
                     After three and half years of working at Toogethr I decided I was interested in a new challenge and 
                     got a new job where I am currently working, Maykin Media.
+                </p>
+            </div>
+            <div className="About-me-off-white-section">
+                <p>
+                    One of the best benefits to living in the Netherlands was the easy ability to travel
+                </p>
+                <p>
+                    Since living here my wife and I have been able to visit 13 countries.
+                </p>
+                <p>
+                    Belgium, France, Germany, Italy, Greece, Spain, Portugal, 
+                    England, Ireland, Scotland, Norway, Sweden, and Denmark.
+                </p>
+            </div>
+            <div className="About-me-grey-section">
+                <p>
+                    For now I simply continue to enjoy life
+                </p>
+            </div>
+            <div className="About-me-off-white-section">
+                <p>
+                    Professionally I'm always interested in learning and develop new skills
+                </p>
+            </div>
+            <div className="About-me-grey-section">
+                <p>
+                    Personally I continue to integrate into Dutch culture and
+                </p>
+                <p>
+                    while I've passed both the inburgerings (integration) examns and staatsexams (state exams)
+                </p>
+                <p>
+                    I still feel there is much to learn about both the language and culture
                 </p>
             </div>
         </div>

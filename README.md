@@ -26,39 +26,3 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## GKE Docker repository
-
-### Docker Build, Tag, and Push Image
-
-To build a new docker image run the following command
-
-```
-docker build -t personal-website .
-```
-
-To tag a new image run the following command
-
-```
-docker tag personal-website eu.gcr.io/shea-meyers-personal-website/personal-website
-```
-
-To push the tagged image run the following command
-
-```
-docker push eu.gcr.io/shea-meyers-personal-website/personal-website
-```
-
-### Docker Pull Image 
-
-To pull the image from GKE's Docker repository run the following command
-
-```
-docker pull eu.gcr.io/shea-meyers-personal-website/personal-website
-```

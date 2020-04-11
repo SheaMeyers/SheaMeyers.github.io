@@ -12,7 +12,7 @@ const Home: React.FC = () => {
                         <Link className="Link" to={'/about-me'}>About Me</Link>
                     </div>
                     <div className="Header-bar--link-div">
-                        <Link className="Link" to={'/project'}>Projects</Link>
+                        <Link className="Link" to={'/projects'}>Projects</Link>
                 </div>
                 </div>
                 <div className="Header-bar--link-group">

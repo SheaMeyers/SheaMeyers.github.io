@@ -3,6 +3,7 @@ import { Router, Route, Switch } from "react-router-dom";
 import history from "./history";
 import AboutMe from './AboutMe';
 import Home from './Home';
+import Projects from './Projects';
 import NotFoundPage from './NotFoundPage';
 
 const App: React.FC = () => {
@@ -11,7 +12,7 @@ const App: React.FC = () => {
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/about-me" component={AboutMe}/>
-                {/* <Route path="/projects" component={Projects}/> */}
+                <Route path="/projects" component={Projects}/>
                 <Route component={NotFoundPage}/> 
             </Switch>
         </Router>

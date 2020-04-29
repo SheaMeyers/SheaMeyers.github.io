@@ -5,7 +5,7 @@ const AboutMe: React.FC = () => {
     return (
         <div className="About-me">
             <div className="About-me-off-white-section">
-                <h1>A mix of personal and professional</h1>
+                <h1>A mix of personal and professional trivia</h1>
             </div>
             <div className="About-me-grey-section">
                 <p>I was born and raised in a small town in Saskatchewan in a family of 5</p>
@@ -18,8 +18,8 @@ const AboutMe: React.FC = () => {
             <div className="About-me-off-white-section">
                 <p>It was in university that I also discovered my love of travel</p>
                 <p>
-                    I became friends with a few german exchange students and ended up spending Christmas break
-                    on year in Germany
+                    I became friends with a few German exchange students and ended up spending Christmas break
+                    one year in Germany
                 </p>
                 <p>
                     This time made me realise how many different lives and cultures existed in the world and 
@@ -27,7 +27,7 @@ const AboutMe: React.FC = () => {
                 </p>
             </div>
             <div className="About-me-grey-section">
-                <p>It was also in university that I discovered the love of my life and future wife Hailey</p>
+                <p>It was also in university that I met the love of my life and future wife Hailey</p>
                 <p>
                     Between my second and third year I met my wife while out with a group of friends and
                     we have been together ever since.
@@ -59,14 +59,14 @@ const AboutMe: React.FC = () => {
                     While I enjoyed working at Vendasta I always kept in mind my dream of living abroad and
                 </p>
                 <p>
-                    after year and a half of work I decided I had enough industry experience and money saved up 
+                    after a year and a half of work I decided I had enough industry experience and money saved up 
                     and began looking for jobs in The Netherlands
                 </p>
             </div>
             <div className="About-me-grey-section">
                 <p>
-                    After many job applications and a few interviews I received a job working with the company Calendar42.  
-                    Which would eventually be rebranded to Toogethr.
+                    After many job applications and a few interviews I received a job working with the company Calendar42,  
+                    which would eventually be rebranded to Toogethr.
                 </p>
                 <p>
                     After three and half years of working at Toogethr I decided I was interested in a new challenge and 

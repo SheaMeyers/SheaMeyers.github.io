@@ -26,3 +26,33 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Deploying to Github Pages
+
+Copy all files in this directory to /SheaMeyers.github.io
+
+```
+cp -r * ../../SheaMeyers.github.io
+```
+
+Go to that directory
+
+```
+cd ../../SheaMeyers.github.io
+```
+
+Remove the node modules directory
+
+```
+rm -r node_modules/
+```
+
+Install dependencies
+```
+npm install
+```
+
+Deploy
+```
+npm run deploy
+```

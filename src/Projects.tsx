@@ -34,11 +34,6 @@ const Projects: React.FC = () => {
                 <a href="https://github.com/SheaMeyers/PatchmanBlog" target="_blank" rel="noopener noreferrer">Code Repository</a>
             </div>
             <div className="About-me-grey-section">
-                <h3>C42ApiProxy</h3>
-                <p>A proxy built to combine multi api requests into one api request</p>
-                <a href="https://github.com/SheaMeyers/C42ApiProxy" target="_blank" rel="noopener noreferrer">Code Repository</a>
-            </div>
-            <div className="About-me-off-white-section">
                 <h3>Others</h3>
                 <p>You can find the other projects I've worked on on my personal Github account</p>
                 <a href="https://github.com/SheaMeyers" target="_blank" rel="noopener noreferrer">My Github</a>

@@ -32,13 +32,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Copy all files in this directory to /SheaMeyers.github.io
 
 ```
-cp -r * ../../SheaMeyers.github.io
+cp -r * ../SheaMeyers.github.io
 ```
 
 Go to that directory
 
 ```
-cd ../../SheaMeyers.github.io
+cd ../SheaMeyers.github.io
 ```
 
 Remove the node modules directory

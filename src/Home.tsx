@@ -27,12 +27,12 @@ const Home: React.FC = () => {
             <div className="Quick-summary">
                 <img className="Quick-summary--photo" src={photo} alt="logo"/>
                 <div className="Quick-summary--text">
-                    <h1 className="Quick-summary--header">
-                        Hello, my name is <span className="Quick-summary--highlight">Shea Meyers</span>
-                    </h1>
-                    <h1 className="Quick-summary--header">
-                        and I am a <span className="Quick-summary--highlight">Full Stack Web Developer</span>
-                    </h1>
+                    <div className="Quick-summary--header">
+                        <p className="Quick-summary--non-highlight">Hello, my name is</p> <h1 className="Quick-summary--highlight">Shea Meyers</h1>
+                    </div>
+                    <div className="Quick-summary--header">
+                        <p className="Quick-summary--non-highlight">and I am a</p> <h1 className="Quick-summary--highlight">Fullstack Web Developer</h1>
+                    </div>
                 </div>
             </div>
             <div className="Bottom-portion">

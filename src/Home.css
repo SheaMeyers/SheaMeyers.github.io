@@ -99,3 +99,14 @@ html, body, #root {
     font-family: auto;
     text-align: center;
 }
+
+@media screen and (max-width: 400px) {
+    .Header-bar {
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .Quick-summary {
+        flex-direction: column;
+    }
+}

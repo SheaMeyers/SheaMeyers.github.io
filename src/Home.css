@@ -8,45 +8,6 @@ html, body, #root {
     height: 100%;
 }
 
-.Header-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-    width: 100%;
-    background-color: #b3b3b3;
-    box-shadow: 0 4px 2px -2px gray;
-}
-
-.Header-bar--link-group {
-    display: flex;
-    height: 100%;
-}
-
-.Header-bar--link-div {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-}
-
-.Header-bar--link-div:hover {
-    background: white;
-}
-
-.Link {
-    font-weight: bold;
-    text-decoration: none;
-    font-family: monospace;
-    font-size: 20px;
-    color: black;
-}
-
-.Link:hover {
-    font-weight: 900;
-}
-
 .Quick-summary {
     display: flex;
     padding: 2px 0 0 0;
@@ -101,12 +62,20 @@ html, body, #root {
 }
 
 @media screen and (max-width: 400px) {
-    .Header-bar {
-        flex-direction: column;
-        height: 100px;
-    }
-
     .Quick-summary {
         flex-direction: column;
+    }
+
+    .Quick-summary--header {
+        flex-direction: column;
+    }
+
+    .Quick-summary--photo {
+        height: 100%;
+        width: 100%;
+    }
+
+    .Quick-summary--highlight {
+        margin: none;
     }
 }

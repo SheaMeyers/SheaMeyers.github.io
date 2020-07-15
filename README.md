@@ -44,7 +44,7 @@ cd ../SheaMeyers.github.io
 Remove the node modules directory
 
 ```
-rm -r node_modules/
+rm -rf node_modules/
 ```
 
 Install dependencies

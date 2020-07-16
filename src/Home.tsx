@@ -8,7 +8,7 @@ const Home: React.FC = () => {
         <div className="Home-body">
             <HeaderBar />
             <div className="Quick-summary">
-                <img className="Quick-summary--photo" src={photo} alt="logo"/>
+                <img className="Quick-summary--photo" src={photo} alt="Shea Meyers" title="Shea Meyers"/>
                 <div className="Quick-summary--text">
                     <div className="Quick-summary--header">
                         <p className="Quick-summary--non-highlight">Hello, my name is</p> <h1 className="Quick-summary--highlight">Shea Meyers</h1>

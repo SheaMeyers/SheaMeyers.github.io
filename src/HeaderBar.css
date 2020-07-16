@@ -6,6 +6,7 @@
     width: 100%;
     background-color: #b3b3b3;
     box-shadow: 0 4px 2px -2px gray;
+    margin-bottom: 2px;
 }
 
 .Header-bar--link-group {

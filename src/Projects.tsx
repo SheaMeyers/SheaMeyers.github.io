@@ -6,8 +6,10 @@ const Projects: React.FC = () => {
     return (
         <div className="Projects-page">
             <HeaderBar />
-            <h1>Projects</h1>
-            <p>These are a variety of projects I've worked on in my spare time</p>
+            <div className="About-me-grey-section">
+                <h1>Projects</h1>
+                <p>These are a variety of projects I've worked on in my spare time</p>
+            </div>
             <div className="About-me-off-white-section">
                 <h3>Indecision App</h3>
                 <p>Allows you to give a set of decisions and randomly decides a decision for you</p>

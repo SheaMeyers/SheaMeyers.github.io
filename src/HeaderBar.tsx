@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
+import { useLocation } from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
 import './HeaderBar.css';
 
 const HeaderBar: React.FC = () => {
@@ -14,6 +14,8 @@ const HeaderBar: React.FC = () => {
                 { pathname !== '/' &&  <Nav.Link href="/">Home</Nav.Link> }
                 { pathname !== '/about-me' && <Nav.Link href="/about-me">About Me</Nav.Link> }
                 { pathname !== '/projects' && <Nav.Link href="/projects">Projects</Nav.Link> }
+                <Nav.Link target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</Nav.Link>
+                <Nav.Link target="_blank" rel="noopener noreferrer" href="https://github.com/SheaMeyers">Github</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

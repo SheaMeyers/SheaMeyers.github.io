@@ -1,9 +1,11 @@
 import React from 'react';
+import HeaderBar from './HeaderBar';
 import './AboutMe.css';
 
 const AboutMe: React.FC = () => {
     return (
         <div className="About-me">
+            <HeaderBar />
             <div className="About-me-off-white-section">
                 <h1>A mix of personal and professional trivia</h1>
             </div>

@@ -9,6 +9,7 @@ html, body, #root {
 }
 
 .Quick-summary {
+    background-color: #cccccc;
     display: flex;
     padding: 2px 0 0 0;
 }

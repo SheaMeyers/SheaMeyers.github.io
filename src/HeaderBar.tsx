@@ -8,29 +8,13 @@ const HeaderBar: React.FC = () => {
     return (
         <div className="Header-bar">
             <div className="Header-bar--link-group">
-                { pathname !== '/' && 
-                    <div className="Header-bar--link-div">
-                        <Link className="Link" to={'/'}>Home</Link>
-                    </div>
-                }
-                { pathname !== '/about-me' && 
-                    <div className="Header-bar--link-div">
-                        <Link className="Link" to={'/about-me'}>About Me</Link>
-                    </div>
-                }
-                { pathname !== '/projects' && 
-                    <div className="Header-bar--link-div">
-                        <Link className="Link" to={'/projects'}>Projects</Link>
-                    </div>
-                }
+                { pathname !== '/' &&  <Link className="Link" to={'/'}>Home</Link> }
+                { pathname !== '/about-me' && <Link className="Link" to={'/about-me'}>About Me</Link> }
+                { pathname !== '/projects' && <Link className="Link" to={'/projects'}>Projects</Link> }
             </div>
             <div className="Header-bar--link-group">
-                <div className="Header-bar--link-div">
-                    <a className="Link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
-                </div>
-                <div className="Header-bar--link-div">
-                    <a className="Link" target="_blank" rel="noopener noreferrer" href="https://github.com/SheaMeyers">Github</a>
-                </div>
+                <a className="Link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sheameyers/">LinkedIn</a>
+                <a className="Link" target="_blank" rel="noopener noreferrer" href="https://github.com/SheaMeyers">Github</a>
             </div>
         </div>
     );

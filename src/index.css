@@ -18,3 +18,7 @@ p {
   text-align: center;
   margin: inherit;
 }
+
+a {
+  margin: 1rem;
+}

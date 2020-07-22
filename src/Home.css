@@ -9,9 +9,8 @@ html, body, #root {
 }
 
 .Quick-summary {
-    background-color: #cccccc;
+    background-color: #99d6ff;
     display: flex;
-    padding: 2px 0 0 0;
 }
 
 .Quick-summary--photo {
@@ -49,7 +48,7 @@ html, body, #root {
 
 .Bottom-portion {
     flex-grow: 1;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;

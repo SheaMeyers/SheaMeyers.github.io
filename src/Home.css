@@ -38,6 +38,7 @@ html, body, #root {
 .Quick-summary--highlight {
     margin: 10px;
     color: black;
+    font-size: 2.5rem;
 }
 
 .Quick-summary--non-highlight {

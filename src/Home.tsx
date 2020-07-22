@@ -14,7 +14,7 @@ const Home: React.FC = () => {
                         <p className="Quick-summary--non-highlight">Hello, my name is</p> <h1 className="Quick-summary--highlight">Shea Meyers</h1>
                     </div>
                     <div className="Quick-summary--header">
-                        <p className="Quick-summary--non-highlight">and I am a</p> <h1 className="Quick-summary--highlight">Fullstack Web Developer</h1>
+                        <p className="Quick-summary--non-highlight">and I am a</p> <h2 className="Quick-summary--highlight">Fullstack Web Developer</h2>
                     </div>
                 </div>
             </div>

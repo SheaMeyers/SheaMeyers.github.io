@@ -7,7 +7,7 @@ const AboutMe: React.FC = () => {
         <div className="About-me">
             <HeaderBar />
             <div className="About-me-off-white-section">
-                <h1>A mix of personal and professional trivia</h1>
+                <h2>A mix of personal and professional trivia</h2>
             </div>
             <div className="About-me-grey-section">
                 <p>I was born and raised in a small town in Saskatchewan in a family of 5</p>

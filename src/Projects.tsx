@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
         <div className="Projects-page">
             <HeaderBar />
             <div className="About-me-grey-section">
-                <h1>Projects</h1>
+                <h2>Projects</h2>
                 <p>These are a variety of projects I've worked on in my spare time</p>
             </div>
             <div className="About-me-off-white-section">

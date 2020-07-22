@@ -9,7 +9,7 @@ const AboutMe: React.FC = () => {
             <div className="About-me-off-white-section">
                 <h2>A mix of personal and professional trivia</h2>
             </div>
-            <div className="About-me-grey-section">
+            <div className="About-me-non-white-section">
                 <p>I was born and raised in a small town in Saskatchewan in a family of 5</p>
                 <p>After high school I went to the University of Saskatchewan to study Engineering</p>
                 <p>After a year of study I decided that Engineering was not for me 
@@ -28,7 +28,7 @@ const AboutMe: React.FC = () => {
                     it was around this time that I decided I would live abroad as soon as I could
                 </p>
             </div>
-            <div className="About-me-grey-section">
+            <div className="About-me-non-white-section">
                 <p>It was also in university that I met the love of my life and future wife Hailey</p>
                 <p>
                     Between my second and third year I met my wife while out with a group of friends and
@@ -43,7 +43,7 @@ const AboutMe: React.FC = () => {
                     and have vouwed never to work in an environment like that again
                 </p>
             </div>
-            <div className="About-me-grey-section">
+            <div className="About-me-non-white-section">
                 <p>
                     After completing my internship and final year of university 
                     I got a job working in my local city at a company called Vendasta
@@ -65,7 +65,7 @@ const AboutMe: React.FC = () => {
                     and began looking for jobs in The Netherlands
                 </p>
             </div>
-            <div className="About-me-grey-section">
+            <div className="About-me-non-white-section">
                 <p>
                     After many job applications and a few interviews I received a job working with the company Calendar42,  
                     which would eventually be rebranded to Toogethr.
@@ -87,7 +87,7 @@ const AboutMe: React.FC = () => {
                     England, Ireland, Scotland, Norway, Sweden, and Denmark.
                 </p>
             </div>
-            <div className="About-me-grey-section">
+            <div className="About-me-non-white-section">
                 <p>
                     For now I simply continue to enjoy life
                 </p>
@@ -97,7 +97,7 @@ const AboutMe: React.FC = () => {
                     Professionally I'm always interested in learning and develop new skills
                 </p>
             </div>
-            <div className="About-me-grey-section">
+            <div className="About-me-non-white-section">
                 <p>
                     Personally I continue to integrate into Dutch culture and
                 </p>

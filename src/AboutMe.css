@@ -16,9 +16,9 @@
     text-align: center;
 }
 
-.About-me-grey-section {
+.About-me-non-white-section {
     width: 100%;
-    background-color: #99d6ff;
+    background-color: #ccebff;
     display: flex;
     justify-content: center;
     align-items: center;

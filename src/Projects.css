@@ -16,10 +16,10 @@
     padding: 25px;
 }
 
-.Projects-page-grey-section {
+.Projects-page-non-white-section {
     width: 100%;
     height: 150px;
-    background-color: #99d6ff;
+    background-color: #ccebff;
     display: flex;
     justify-content: center;
     align-items: center;

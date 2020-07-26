@@ -17,7 +17,7 @@ const Now: React.FC = () => {
                     <h4 className="Left-padding">So, what I'm doing:</h4>
                     <ul>
                         <li>
-                            Learning Dutch.  I do this my reading books, watching TV, and writing.  
+                            Learning Dutch.  I do this by reading books, watching TV, and writing.  
                             I'm currently looking for a language partner to speak Dutch with since I 
                             speak English at both work and home
                         </li>

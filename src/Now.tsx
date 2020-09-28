@@ -18,12 +18,12 @@ const Now: React.FC = () => {
                     <ul>
                         <li>
                             Learning Dutch.  I do this by reading books, watching TV, and writing.  
-                            I'm currently looking for a language partner to speak Dutch with since I 
-                            speak English at both work and home
+                            I also try to speak Dutch with people whenever possible but with the current
+                            covid situation this is difficult
                         </li>
                         <li>
-                            Renovating.  I bought a condo about a year ago which I'm been slowly renovating ever since.
-                            Now it's mostly painting so hopefully this will be done soon
+                            Programming.  While I work as a software developer I always have some app ideas
+                            I'm interested in building or new technology I want to explore
                         </li>
                         <li>
                             Working.  I work a full time job so that takes a good part of my day
@@ -31,8 +31,8 @@ const Now: React.FC = () => {
                     </ul>
                     <p className="Left-padding">
                         Otherwise I spend my free time however I want to.  
-                        This includes exercising, programming, watching Netflix, spending time with my wife, 
-                        and anything else that I decide I want to do. 
+                        This includes spending time with my wife, cat, and friends, exercising, reading,
+                        watching Netflix, and anything else that I decide I want to do. 
                     </p>
                 </div>
             </div>

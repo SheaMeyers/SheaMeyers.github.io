@@ -44,6 +44,7 @@ html, body, #root {
     font-size: 2em;
     font-weight: bolder;
     font-family: inherit;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .Bottom-portion {

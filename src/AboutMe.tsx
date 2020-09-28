@@ -7,37 +7,38 @@ const AboutMe: React.FC = () => {
         <div className="About-me">
             <HeaderBar />
             <div className="About-me-off-white-section">
-                <h2>A mix of personal and professional trivia</h2>
+                <h2>A Quick Overview</h2>
             </div>
             <div className="About-me-non-white-section">
                 <p className='About-me-sentence'>I was born and raised in a small town in Saskatchewan in a family of 5</p>
-                <p className='About-me-sentence'>After high school I went to the University of Saskatchewan to study Engineering</p>
-                <p className='About-me-sentence'>After a year of study I decided that Engineering was not for me 
-                    and eventually decided on studying Computer Science
+                <p className='About-me-sentence'>After high school I went to the University of Saskatchewan to study engineering</p>
+                <p className='About-me-sentence'>I decided that engineering was not for me after a year of study and 
+                eventually decided on studying computer science
                 </p>
-                <p className='About-me-sentence'>It was then that I discovered my love of programming</p>
             </div>
             <div className="About-me-off-white-section">
-                <p className='About-me-sentence'>It was in university that I also discovered my love of travel</p>
+                <p className='About-me-sentence'>It was then that I discovered my love of programming and also discovered my love of travel</p>
                 <p className='About-me-sentence'>
                     I became friends with a few German exchange students and ended up spending Christmas break
                     one year in Germany
                 </p>
                 <p className='About-me-sentence'>
                     This time made me realise how many different lives and cultures existed in the world and 
-                    it was around this time that I decided I would live abroad as soon as I could
+                    I decided I would live abroad as soon as I could
                 </p>
             </div>
             <div className="About-me-non-white-section">
                 <p className='About-me-sentence'>It was also in university that I met the love of my life and future wife Hailey</p>
                 <p className='About-me-sentence'>
                     Between my second and third year I met my wife while out with a group of friends and
-                    we have been together ever since.
+                    we have been together ever since
                 </p>
             </div>
             <div className="About-me-off-white-section">
-                <p className='About-me-sentence'>My first "real" job was an intership I did at a company called Sasktel</p>
-                <p className='About-me-sentence'>Between my third and fourth year of University I did a one year intership at this company</p>
+                <p className='About-me-sentence'>
+                    My first "real" job was a year long intership I did at a company called Sasktel between my third and 
+                    fourth year of university
+                </p>
                 <p className='About-me-sentence'>
                     While the money was good it made me realize how much I disliked corporate cubicle work environments
                     and have vouwed never to work in an environment like that again
@@ -49,20 +50,17 @@ const AboutMe: React.FC = () => {
                     I got a job working in my local city at a company called Vendasta
                 </p>
                 <p className='About-me-sentence'>
-                    While working here I slowly transition from a university student to a real adult
-                </p>
-                <p className='About-me-sentence'>
-                    I worked at Vendasta for a year and half and can say 
+                    I worked at Vendasta for a year and half and
                     it gave me a great foundation of knowledge that I've continued to use
                 </p>
             </div>
             <div className="About-me-off-white-section">
                 <p className='About-me-sentence'>
-                    While I enjoyed working at Vendasta I always kept in mind my dream of living abroad and
+                    While I enjoyed working at Vendasta I always kept in mind my dream of living abroad
                 </p>
                 <p className='About-me-sentence'>
-                    after a year and a half of work I decided I had enough industry experience and money saved up 
-                    and began looking for jobs in The Netherlands
+                    I worked at Vendasta for a eighteen months and decided I had enough industry experience and money saved up 
+                    so I began looking for jobs in The Netherlands
                 </p>
             </div>
             <div className="About-me-non-white-section">
@@ -71,8 +69,8 @@ const AboutMe: React.FC = () => {
                     which would eventually be rebranded to Toogethr.
                 </p>
                 <p className='About-me-sentence'>
-                    After three and half years of working at Toogethr I decided I was interested in a new challenge and 
-                    got a new job where I am currently working, Maykin Media.
+                    I worked with Toogethr for three and half years and decided I wanted a new challenge and got a 
+                    new job where I am currently working, Maykin Media
                 </p>
             </div>
             <div className="About-me-off-white-section">
@@ -80,11 +78,11 @@ const AboutMe: React.FC = () => {
                     One of the best benefits to living in the Netherlands was the easy ability to travel
                 </p>
                 <p className='About-me-sentence'>
-                    Since living here my wife and I have been able to visit 13 countries.
+                    Since living here my wife and I have been able to visit 13 countries
                 </p>
                 <p className='About-me-sentence'>
                     Belgium, France, Germany, Italy, Greece, Spain, Portugal, 
-                    England, Ireland, Scotland, Norway, Sweden, and Denmark.
+                    England, Ireland, Scotland, Norway, Sweden, and Denmark
                 </p>
             </div>
             <div className="About-me-non-white-section">

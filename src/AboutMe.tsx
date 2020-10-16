@@ -6,7 +6,7 @@ const AboutMe: React.FC = () => {
     return (
         <div className="About-me">
             <HeaderBar />
-            <div className="About-me-off-white-section">
+            <div className="About-me-section">
                 <h2>A Quick Overview</h2>
             </div>
             <div className="About-me-non-white-section">
@@ -16,7 +16,7 @@ const AboutMe: React.FC = () => {
                 eventually decided on studying computer science
                 </p>
             </div>
-            <div className="About-me-off-white-section">
+            <div className="About-me-section">
                 <p className='About-me-sentence'>It was then that I discovered my love of programming and also discovered my love of travel</p>
                 <p className='About-me-sentence'>
                     I became friends with a few German exchange students and ended up spending Christmas break
@@ -34,7 +34,7 @@ const AboutMe: React.FC = () => {
                     we have been together ever since
                 </p>
             </div>
-            <div className="About-me-off-white-section">
+            <div className="About-me-section">
                 <p className='About-me-sentence'>
                     My first "real" job was a year long intership I did at a company called Sasktel between my third and 
                     fourth year of university
@@ -54,7 +54,7 @@ const AboutMe: React.FC = () => {
                     it gave me a great foundation of knowledge that I've continued to use
                 </p>
             </div>
-            <div className="About-me-off-white-section">
+            <div className="About-me-section">
                 <p className='About-me-sentence'>
                     While I enjoyed working at Vendasta I always kept in mind my dream of living abroad
                 </p>
@@ -73,7 +73,7 @@ const AboutMe: React.FC = () => {
                     new job where I am currently working, Maykin Media
                 </p>
             </div>
-            <div className="About-me-off-white-section">
+            <div className="About-me-section">
                 <p className='About-me-sentence'>
                     One of the best benefits to living in the Netherlands was the easy ability to travel
                 </p>
@@ -90,7 +90,7 @@ const AboutMe: React.FC = () => {
                     For now I simply continue to enjoy life
                 </p>
             </div>
-            <div className="About-me-off-white-section">
+            <div className="About-me-section">
                 <p className='About-me-sentence'>
                     Professionally I'm always interested in learning and develop new skills
                 </p>

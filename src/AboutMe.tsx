@@ -97,10 +97,10 @@ const AboutMe: React.FC = () => {
             </div>
             <div className="About-me-non-white-section">
                 <p className='About-me-sentence'>
-                    Personally I continue to integrate into Dutch culture and
+                    Personally I continue to integrate into Dutch culture and while 
                 </p>
                 <p className='About-me-sentence'>
-                    while I've passed both the inburgerings (integration) examns and staatsexams (state exams)
+                    I've passed both the inburgerings (integration) exams and staatsexams (state exams)
                 </p>
                 <p className='About-me-sentence'>
                     I still feel there is much to learn about both the language and culture

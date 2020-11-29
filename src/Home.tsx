@@ -13,8 +13,8 @@ const Home: React.FC = () => {
                 <h2 className="Main-portion--job">Fullstack Web Developer</h2>
             </div>
             <div className="Bottom-portion">
-                <p className="Bottom-portion--text">I'm mostly experienced in ReactJS and Django</p>
-                <p className="Bottom-portion--text">Born and raised in Canada I now reside in The Netherlands</p>
+                <p className="Bottom-portion--text">I program primarily in ReactJS and Django</p>
+                <p className="Bottom-portion--text">I was born and raised in Canada and now reside in The Netherlands</p>
             </div>
         </div>
     );

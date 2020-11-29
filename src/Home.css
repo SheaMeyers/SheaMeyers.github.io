@@ -12,6 +12,30 @@ html, body, #root {
     width: 100%;
 }
 
+.Main-portion {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Main-portion--name {
+    width: 100%;
+    font-size: 100px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.Main-portion--job {
+    width: 100%;
+    font-size: 60px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
 .Bottom-portion {
     flex-grow: 1;
     background-color: #ffffff;

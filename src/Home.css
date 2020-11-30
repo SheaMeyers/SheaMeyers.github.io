@@ -59,5 +59,22 @@ html, body, #root {
 .Projects-portion--title {
     margin: 20px;
     font-size: 5vw;
-    text-decoration: underline;
+}
+
+.Projects-portion--project__section {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+}
+
+.Projects-portion--project__non-white-section {
+    width: 100%;
+    background-color: #ccebff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
 }

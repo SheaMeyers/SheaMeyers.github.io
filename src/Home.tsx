@@ -15,25 +15,25 @@ const Home: React.FC = () => {
             </div>
             <div className="Projects-portion">
                 <h2 className="Projects-portion--title">Projects</h2>
-                <p>I mostly program in ReactJS and Django which is what the projects below are written in.</p>
-                <p>Some of my other projects can be found on my Github.</p>
+                <p>I mostly program in ReactJS and Django.</p>
+                <p>Other projects can be found on my Github.</p>
                 <br/>
-                <div className="About-me-non-white-section">
+                <div className="Projects-portion--project__non-white-section">
                     <h3>Jobs By Education</h3>
-                    <p>Find jobs by filtering the jobs based on your education.  Written in Django.</p>
+                    <p>Find jobs by filtering on your education.  Written in Django.</p>
                     <a href="https://jobsbyeducation.com" target="_blank" rel="noopener noreferrer">https://jobsbyeducation.com</a>
                 </div>
-                <div className="About-me-section">
+                <div className="Projects-portion--project__section">
                     <h3>Anonymous Reviewer</h3>
-                    <p>Anonymously review a business.  Written in ReactJS and Django.</p>
+                    <p>Anonymously review a business and see what others have anonymously said.  Written in ReactJS and Django.</p>
                     <a href="https://anonymousreviewer.com" target="_blank" rel="noopener noreferrer">https://anonymousreviewer.com</a>
                 </div>
-                <div className="About-me-non-white-section">
+                <div className="Projects-portion--project__non-white-section">
                     <h3>Expensify App</h3>
                     <p>Track expenses.  Written in ReactJS.</p>
                     <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noopener noreferrer">https://sheameyers.com/react-expensify-app</a>
                 </div>
-                <div className="About-me-section">
+                <div className="Projects-portion--project__section">
                     <h3>Indecision App</h3>
                     <p>Give a set of decisions and randomly get a decision for you.  Written in ReactJS.</p>
                     <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noopener noreferrer">https://sheameyers.com/react-indecision-app</a>

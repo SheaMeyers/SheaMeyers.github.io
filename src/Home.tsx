@@ -21,12 +21,12 @@ const Home: React.FC = () => {
                 <div className="Projects-portion--project__non-white-section">
                     <h3>Jobs By Education</h3>
                     <p>Find jobs by filtering on your education.  Written in Django.</p>
-                    <a href="https://jobsbyeducation.com" target="_blank" rel="noopener noreferrer">https://jobsbyeducation.com</a>
+                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener noreferrer">https://www.jobsbyeducation.com</a>
                 </div>
                 <div className="Projects-portion--project__section">
                     <h3>Anonymous Reviewer</h3>
                     <p>Anonymously review a business and see what others have anonymously said.  Written in ReactJS and Django.</p>
-                    <a href="https://anonymousreviewer.com" target="_blank" rel="noopener noreferrer">https://anonymousreviewer.com</a>
+                    <a href="https://www.anonymousreviewer.com" target="_blank" rel="noopener noreferrer">https://www.anonymousreviewer.com</a>
                 </div>
                 <div className="Projects-portion--project__non-white-section">
                     <h3>Expensify App</h3>

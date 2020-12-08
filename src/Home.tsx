@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from './CroppedPhotoToUse.png';
+import photo from './HomePhoto.jpg';
 import HeaderBar from './HeaderBar';
 import './Home.css';
 

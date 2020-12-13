@@ -17,7 +17,7 @@ html, body, #root {
     position: relative;
     text-align: center;
     color: white;
-    text-shadow: 4px 4px #000000;
+    text-shadow: 0.3vw 0.3vw #000000;
 }
 
 .Main-portion--name {

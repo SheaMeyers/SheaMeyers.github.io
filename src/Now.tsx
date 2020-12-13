@@ -7,6 +7,13 @@ const Now: React.FC = () => {
         <div className="Now">
             <HeaderBar />
             <div className="Now">
+                <div className="Now--white-section">
+                    <h6 style={{textAlign: 'center'}}>
+                        This is my
+                        <a style={{margin: '0.3rem'}} href="https://nownownow.com/about" target="_blank" rel="noopener noreferrer">now</a>
+                        page and you should create one too!
+                    </h6>
+                </div>
                 <div className="Now--non-white-section">
                     <h2 className="Now--header">What am I doing now?</h2>
                 </div>

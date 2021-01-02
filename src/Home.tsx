@@ -19,21 +19,26 @@ const Home: React.FC = () => {
                 <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--project__non-white-section">
+                    <h3>Worker Coordinator</h3>
+                    <p>Coordinate with your workers.  Written in ReactJS and Django.</p>
+                    <a href="https://www.workercoordinator.com" target="_blank" rel="noopener noreferrer">https://www.workercoordinator.com</a>
+                </div>
+                <div className="Projects-portion--project__section">
                     <h3>Jobs By Education</h3>
                     <p>Find jobs by filtering on your education.  Written in Django.</p>
                     <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener noreferrer">https://www.jobsbyeducation.com</a>
                 </div>
-                <div className="Projects-portion--project__section">
+                <div className="Projects-portion--project__non-white-section">
                     <h3>Anonymous Reviewer</h3>
                     <p>Anonymously review a business and see what others have anonymously said.  Written in ReactJS and Django.</p>
                     <a href="https://www.anonymousreviewer.com" target="_blank" rel="noopener noreferrer">https://www.anonymousreviewer.com</a>
                 </div>
-                <div className="Projects-portion--project__non-white-section">
+                <div className="Projects-portion--project__section">
                     <h3>Expensify App</h3>
                     <p>Track expenses.  Written in ReactJS.</p>
                     <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noopener noreferrer">https://sheameyers.com/react-expensify-app</a>
                 </div>
-                <div className="Projects-portion--project__section">
+                <div className="Projects-portion--project__non-white-section">
                     <h3>Indecision App</h3>
                     <p>Give a set of decisions and randomly get a decision for you.  Written in ReactJS.</p>
                     <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noopener noreferrer">https://sheameyers.com/react-indecision-app</a>

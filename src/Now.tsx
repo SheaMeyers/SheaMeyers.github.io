@@ -19,7 +19,7 @@ const Now: React.FC = () => {
                 </div>
                 <div className="Now--white-section">
                     <h3 className="Now--sub-header">
-                        I try to keep this page current about what I'm doing at the current moment
+                        I try to keep this page current about what I'm doing at the moment
                     </h3>
                     <h4 className="Left-padding">So, what I'm doing:</h4>
                     <ul>
@@ -29,11 +29,13 @@ const Now: React.FC = () => {
                             covid situation this is difficult
                         </li>
                         <li>
-                            Programming.  While I work as a software developer I always have some app ideas
-                            I'm interested in building or new technology I want to explore
+                            Projects.  On my home page you'll see two other websites.
+                            I've programmed these and now I'm studying marketing 
+                            to try to get people to know about these
                         </li>
                         <li>
-                            Working.  I work a full time job so that takes a good part of my day
+                            Gaming.  My wife and I decided to get a Nintendo Switch for Christmas so I've been
+                            playing a lot of video games, especially "The Legend of Zelda: Breath of the Wild"
                         </li>
                     </ul>
                     <p className="Left-padding">

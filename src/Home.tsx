@@ -28,15 +28,21 @@ const Home: React.FC = () => {
                     <p>Find jobs by filtering on your education.  Written in Django.</p>
                     <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener noreferrer">https://www.jobsbyeducation.com</a>
                 </div>
-                <div className="Projects-portion--project__non-white-section">
+                <h3 className="Projects-portion--sub-title">Smaller Apps</h3>
+                <div className="Projects-portion--project__section">
                     <h3>Expensify App</h3>
                     <p>Track expenses.  Written in ReactJS.</p>
                     <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noopener noreferrer">https://sheameyers.com/react-expensify-app</a>
                 </div>
-                <div className="Projects-portion--project__section">
+                <div className="Projects-portion--project__non-white-section">
                     <h3>Indecision App</h3>
                     <p>Give a set of decisions and randomly get a decision for you.  Written in ReactJS.</p>
                     <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noopener noreferrer">https://sheameyers.com/react-indecision-app</a>
+                </div>
+                <div className="Projects-portion--project__section">
+                    <h3>Salary Breakdown</h3>
+                    <p>See your salary in different amounts.  Written in ReactJS.</p>
+                    <a href="https://sheameyers.com/salary-breakdown" target="_blank" rel="noopener noreferrer">https://sheameyers.com/salary-breakdown</a>
                 </div>
             </div>
         </div>

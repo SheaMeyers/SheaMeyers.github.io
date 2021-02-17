@@ -63,6 +63,15 @@ html, body, #root {
     font-size: 5vw;
 }
 
+.Projects-portion--sub-title {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    font-size: 4vw;
+    background-color: #ccebff;
+}
+
 .Projects-portion--project__section {
     width: 100%;
     background-color: #ffffff;

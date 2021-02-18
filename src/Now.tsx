@@ -9,11 +9,7 @@ const Now: React.FC = () => {
             <div className="Now">
                 <div className="Now--white-section">
                     <h6 style={{textAlign: 'center'}}>
-                        This is
-                        <a style={{margin: '0.3rem'}} href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">my now page</a>
-                        and you should  
-                        <a style={{margin: '0.3rem'}} href="https://nownownow.com/about" target="_blank" rel="noopener noreferrer">create a now page</a>
-                        too!
+                        <a style={{margin: '0.3rem'}} href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">This is my now page!</a>
                     </h6>
                 </div>
                 <div className="Now--non-white-section">

@@ -44,6 +44,11 @@ const Home: React.FC = () => {
                     <p>See your salary in different amounts.  Written in ReactJS.</p>
                     <a href="https://sheameyers.com/salary-breakdown" target="_blank" rel="noopener noreferrer">https://sheameyers.com/salary-breakdown</a>
                 </div>
+                <div className="Projects-portion--project__non-white-section">
+                    <h3>Pizza Area Comparer</h3>
+                    <p>See which pizza or pizzas give the best value.  Written in ReactJS.</p>
+                    <a href="https://sheameyers.com/pizza-area-comparer" target="_blank" rel="noopener noreferrer">https://sheameyers.com/pizza-area-comparer</a>
+                </div>
             </div>
         </div>
     );

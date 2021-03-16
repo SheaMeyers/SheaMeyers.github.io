@@ -5,6 +5,13 @@
 .Now--white-section {
     background-color: #ffffff;
     padding: 10px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.Now--margins {
+    max-width: 500px;
 }
 
 .Now--header {

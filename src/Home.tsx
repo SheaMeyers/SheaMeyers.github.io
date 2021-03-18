@@ -22,7 +22,10 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       width: "500px",
       margin: "20px",
-      cursor: "pointer"
+      cursor: "pointer",
+      '&:hover': {
+        transform: "scale(1.05)",
+      }
     },
     media: {
       height: 0,

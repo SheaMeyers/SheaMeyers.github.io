@@ -69,7 +69,23 @@ html, body, #root {
     padding: 20px;
     margin: 0;
     font-size: 2rem;
+}
+
+.Projects-portion--sub-sub-title {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.Projects-portion--projects {
+    width: 100%;
     background-color: #ccebff;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .Projects-portion--project__section {

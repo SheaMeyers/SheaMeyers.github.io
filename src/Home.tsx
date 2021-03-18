@@ -1,19 +1,17 @@
 import React from 'react';
-import homePhoto from './homePhoto.jpg';
-
-import wcPhoto from './wcPhoto.jpg';
-import jbePhoto from './jbePhoto.jpg';
-import salaryPhoto from './salaryPhoto.jpg';
-import pizzaPhoto from './pizzaPhoto.jpg';
-import indecisionPhoto from './indecisionPhoto.jpg';
-import expensifyPhoto from './expensifyPhoto.jpg';
-
 import HeaderBar from './HeaderBar';
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
+import homePhoto from './homePhoto.jpg';
+import wcPhoto from './wcPhoto.jpg';
+import jbePhoto from './jbePhoto.jpg';
+import salaryPhoto from './salaryPhoto.jpg';
+import pizzaPhoto from './pizzaPhoto.jpg';
+import indecisionPhoto from './indecisionPhoto.jpg';
+import expensifyPhoto from './expensifyPhoto.jpg';
 import './Home.css';
 
 

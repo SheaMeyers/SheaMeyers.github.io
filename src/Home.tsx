@@ -55,9 +55,7 @@ const Home: React.FC = () => {
                 <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--projects">
-                    <Card className={classes.root} onClick={_ => {
-                        window.open("https://www.workercoordinator.com", '_blank');
-                    }}>
+                    <Card className={classes.root} onClick={_ => window.open("https://www.workercoordinator.com")}>
                         <CardHeader 
                             title="Worker Coordinator"
                         />
@@ -71,9 +69,7 @@ const Home: React.FC = () => {
                             Written in ReactJS and Django.
                         </CardContent>
                     </Card>
-                    <Card className={classes.root} onClick={_ => {
-                        window.open("https://www.jobsbyeducation.com", '_blank');
-                    }}>
+                    <Card className={classes.root} onClick={_ => window.open("https://www.jobsbyeducation.com")}>
                         <CardHeader 
                             title="Jobs By Education"
                         />
@@ -92,9 +88,7 @@ const Home: React.FC = () => {
                 <p>Front end apps written in ReactJS</p>
                 <br/>
                 <div className="Projects-portion--projects">
-                    <Card className={classes.root} onClick={_ => {
-                        window.open("https://sheameyers.com/react-expensify-app", '_blank');
-                    }}>
+                    <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/react-expensify-app")}>
                         <CardHeader 
                             title="Expensify App"
                         />
@@ -107,9 +101,7 @@ const Home: React.FC = () => {
                             Track expenses.
                         </CardContent>
                     </Card>
-                    <Card className={classes.root} onClick={_ => {
-                        window.open("https://sheameyers.com/react-indecision-app", '_blank');
-                    }}>
+                    <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/react-indecision-app")}>
                         <CardHeader 
                             title="Indecision App"
                         />
@@ -122,11 +114,7 @@ const Home: React.FC = () => {
                             Give a set of decisions and randomly get a decision for you.
                         </CardContent>
                     </Card>
-
-
-                    <Card className={classes.root} onClick={_ => {
-                        window.open("https://sheameyers.com/pizza-area-comparer", '_blank');
-                    }}>
+                    <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/pizza-area-comparer")}>
                         <CardHeader 
                             title="Pizza Area Comparer"
                         />
@@ -139,9 +127,7 @@ const Home: React.FC = () => {
                             See which pizza or pizzas give the best value.
                         </CardContent>
                     </Card>
-                    <Card className={classes.root} onClick={_ => {
-                        window.open("https://sheameyers.com/salary-breakdown", '_blank');
-                    }}>
+                    <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/salary-breakdown")}>
                         <CardHeader 
                             title="Salary Breakdown"
                         />

@@ -18,7 +18,7 @@ import './Home.css';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      width: "500px",
+      width: "600px",
       margin: "20px",
       cursor: "pointer",
       '&:hover': {

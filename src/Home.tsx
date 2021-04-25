@@ -6,6 +6,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import homePhoto from './homePhoto.jpg';
+import ecPhoto from './ecPhoto.jpg';
 import wcPhoto from './wcPhoto.jpg';
 import jbePhoto from './jbePhoto.jpg';
 import salaryPhoto from './salaryPhoto.jpg';
@@ -49,7 +50,7 @@ const Home: React.FC = () => {
             </div>
             <div className="Projects-portion">
                 <h2 className="Projects-portion--title">Projects</h2>
-                <p>I mostly program in ReactJS and Django.</p>
+                <p>I mostly program with ReactJS and Django.</p>
                 <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--projects">
@@ -81,11 +82,20 @@ const Home: React.FC = () => {
                             Written in Django.
                         </CardContent>
                     </Card>
-                </div>
-                <h3 className="Projects-portion--sub-title">Smaller Apps</h3>
-                <p>Front end apps written in ReactJS</p>
-                <br/>
-                <div className="Projects-portion--projects">
+                    <Card className={classes.root} onClick={_ => window.open("https://www.email-collect.com")}>
+                        <CardHeader 
+                            title="Email Collect"
+                        />
+                        <CardMedia
+                            className={classes.media}
+                            image={ecPhoto}
+                            title="Email Collect"
+                        />
+                        <CardContent>
+                            Easily collect emails.  <br/>
+                            Written in Django.
+                        </CardContent>
+                    </Card>
                     <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/react-expensify-app")}>
                         <CardHeader 
                             title="Expensify App"
@@ -96,7 +106,8 @@ const Home: React.FC = () => {
                             title="Expensify App"
                         />
                         <CardContent>
-                            Track expenses.
+                            Track expenses. <br/>
+                            Written in ReactJS.
                         </CardContent>
                     </Card>
                     <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/react-indecision-app")}>
@@ -109,7 +120,8 @@ const Home: React.FC = () => {
                             title="Indecision App"
                         />
                         <CardContent>
-                            Give a set of decisions and randomly get a decision for you.
+                            Give a set of decisions and randomly get a decision for you.<br/>
+                            Written in ReactJS.
                         </CardContent>
                     </Card>
                     <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/pizza-area-comparer")}>
@@ -122,7 +134,8 @@ const Home: React.FC = () => {
                             title="Pizza Area Comparer"
                         />
                         <CardContent>
-                            See which pizza or pizzas give the best value.
+                            See which pizza or pizzas give the best value.<br/>
+                            Written in ReactJS.
                         </CardContent>
                     </Card>
                     <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/salary-breakdown")}>
@@ -135,7 +148,8 @@ const Home: React.FC = () => {
                             title="Salary Breakdown"
                         />
                         <CardContent>
-                            See your salary in different amounts.
+                            See your salary in different amounts.<br/>
+                            Written in ReactJS.
                         </CardContent>
                     </Card>
                 </div>

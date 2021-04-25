@@ -12,14 +12,14 @@ const AboutMe: React.FC = () => {
             <div className="About-me-non-white-section">
                 <p className="About-me-section__text">
                     I was born and raised in a small town in Saskatchewan in a family of 5.
-                    After high school I went to the University of Saskatchewan to study engineering.
+                    After high school I attended the University of Saskatchewan to study engineering.
                     I decided that engineering was not for me after a year of study and eventually 
                     decided on studying computer science.
                 </p>
             </div>
             <div className="About-me-section">
                 <p className="About-me-section__text">
-                    It was then that I discovered my love of programming and also discovered my love of travel.
+                    It was then that I discovered my love of programming and also my love of travel.
                     I became friends with a few German exchange students and ended up spending Christmas break
                     one year in Germany.
                     This time made me realise how many different lives and cultures existed in the world and 
@@ -29,7 +29,7 @@ const AboutMe: React.FC = () => {
             <div className="About-me-non-white-section">
                 <p className="About-me-section__text">
                     It was also in university that I met the love of my life and future wife Hailey.
-                    Between my second and third year I met my wife while out with a group of friends and
+                    Between my second and third year of university I met my wife while out with a group of friends and
                     we have been together ever since.
                 </p>
             </div>
@@ -37,8 +37,8 @@ const AboutMe: React.FC = () => {
                 <p className="About-me-section__text">
                     My first "real" job was a year long intership I did at a company called Sasktel 
                     between my third and fourth year of university.
-                    While the money was good it made me realize how much I disliked corporate cubicle 
-                    work environments and have always worked in a more casual work environment since then.
+                    While the money was good it made me realize I disliked corporate cubicle 
+                    work environments and have worked in more casual work environments since then.
                 </p>
             </div>
             <div className="About-me-non-white-section">
@@ -52,7 +52,7 @@ const AboutMe: React.FC = () => {
             <div className="About-me-section">
                 <p className="About-me-section__text">
                     While I enjoyed working at Vendasta I always kept in mind my dream of living abroad.
-                    I worked at Vendasta for a eighteen months and decided I had enough industry experience 
+                    I worked at Vendasta for a year and a half and decided I had enough industry experience 
                     and money saved up so I began looking for jobs in The Netherlands.
                 </p>
             </div>
@@ -61,22 +61,22 @@ const AboutMe: React.FC = () => {
                     After many job applications and a few interviews I received a job working with the company Calendar42,  
                     which would eventually be rebranded to Toogethr.
                     I worked with Toogethr for three and half years and decided I wanted a new challenge and got a 
-                    new job where I am currently working, Maykin Media
+                    new job where I am currently working, Maykin Media.
                 </p>
             </div>
             <div className="About-me-section">
                 <p className="About-me-section__text">
-                    One of the best benefits to living in the Netherlands was the easy ability to travel.
-                    Since living here my wife and I have been able to visit 13 countries.
+                    One of the best benefits to living in the Netherlands is the easy ability to travel.
+                    Since living here my wife and I have been able to visit 13 countries within Europe.
                     Belgium, France, Germany, Italy, Greece, Spain, Portugal, 
                     England, Ireland, Scotland, Norway, Sweden, and Denmark.
                 </p>
             </div>
             <div className="About-me-non-white-section">
                 <p className="About-me-section__text">
-                    I'm continuing to integrate into Dutch culture and while 
+                    For now I'm continuing to integrate into Dutch culture and while 
                     I've passed both the inburgerings (integration) exams and staatsexams (state exams)
-                    I still feel there is much to learn about both the language and culture.
+                    I still feel there is a lot to learn about both the language and culture.
                 </p>
             </div>
         </div>

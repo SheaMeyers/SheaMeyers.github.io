@@ -23,18 +23,18 @@ const Now: React.FC = () => {
                         <h4 className="Left-padding">So, what I'm doing:</h4>
                         <ul>
                             <li>
-                                Learning Dutch.  I do this by reading books, watching TV, and writing.  
-                                I also try to speak Dutch with people whenever possible but with the current
+                                Learning Dutch:  I do this by reading books, watching TV, and writing.  
+                                I also try to speak Dutch whenever possible but with the current
                                 covid situation this is difficult
                             </li>
                             <li>
-                                Projects.  On my home page you'll see two other websites.
-                                I've programmed these and now I'm studying marketing 
-                                to try to get people to know about these
+                                Projects:  On my home page you'll some of these projects.
+                                Now that these are created I'm studying the marketing involved in getting
+                                users to find your project and to start using them.
                             </li>
                             <li>
-                                Gaming.  My wife and I decided to get a Nintendo Switch for Christmas so I've been
-                                playing a lot of video games, especially "The Legend of Zelda: Breath of the Wild"
+                                Gaming:  My wife and I got a Nintendo Switch for Christmas so I've been
+                                playing video games, especially "The Legend of Zelda: Breath of the Wild"
                             </li>
                         </ul>
                         <p className="Left-padding">

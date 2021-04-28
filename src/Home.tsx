@@ -54,48 +54,54 @@ const Home: React.FC = () => {
                 <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--projects">
-                    <Card className={classes.root} onClick={_ => window.open("https://www.workercoordinator.com")}>
-                        <CardHeader 
-                            title="Worker Coordinator"
-                        />
-                        <CardMedia
-                            className={classes.media}
-                            image={wcPhoto}
-                            title="Worker Coordinator"
-                        />
-                        <CardContent>
-                            Coordinate with your workers.  <br/>
-                            Written in ReactJS and Django.
-                        </CardContent>
-                    </Card>
-                    <Card className={classes.root} onClick={_ => window.open("https://www.jobsbyeducation.com")}>
-                        <CardHeader 
-                            title="Jobs By Education"
-                        />
-                        <CardMedia
-                            className={classes.media}
-                            image={jbePhoto}
-                            title="Jobs By Education"
-                        />
-                        <CardContent>
-                            Find jobs by filtering on your education.  <br/>
-                            Written in Django.
-                        </CardContent>
-                    </Card>
-                    <Card className={classes.root} onClick={_ => window.open("https://www.email-collect.com")}>
-                        <CardHeader 
-                            title="Email Collect"
-                        />
-                        <CardMedia
-                            className={classes.media}
-                            image={ecPhoto}
-                            title="Email Collect"
-                        />
-                        <CardContent>
-                            Easily collect emails.  <br/>
-                            Written in Django.
-                        </CardContent>
-                    </Card>
+                    <a href="https://www.workercoordinator.com" target="_blank">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Worker Coordinator"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={wcPhoto}
+                                title="Worker Coordinator"
+                            />
+                            <CardContent>
+                                Coordinate with your workers.  <br/>
+                                Written in ReactJS and Django.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://www.jobsbyeducation.com" target="_blank">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Jobs By Education"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={jbePhoto}
+                                title="Jobs By Education"
+                            />
+                            <CardContent>
+                                Find jobs by filtering on your education.  <br/>
+                                Written in Django.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://www.email-collect.com" target="_blank">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Email Collect"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={ecPhoto}
+                                title="Email Collect"
+                            />
+                            <CardContent>
+                                Easily collect emails.  <br/>
+                                Written in Django.
+                            </CardContent>
+                        </Card>
+                    </a>
                     <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/react-expensify-app")}>
                         <CardHeader 
                             title="Expensify App"

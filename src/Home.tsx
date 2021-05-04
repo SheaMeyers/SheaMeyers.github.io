@@ -6,7 +6,6 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import homePhoto from './homePhoto.jpg';
-import ecPhoto from './ecPhoto.jpg';
 import wcPhoto from './wcPhoto.jpg';
 import jbePhoto from './jbePhoto.jpg';
 import salaryPhoto from './salaryPhoto.jpg';
@@ -54,7 +53,7 @@ const Home: React.FC = () => {
                 <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--projects">
-                    <a href="https://www.workercoordinator.com" target="_blank">
+                    <a href="https://www.workercoordinator.com" target="_blank" rel="noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Worker Coordinator"
@@ -70,7 +69,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://www.jobsbyeducation.com" target="_blank">
+                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Jobs By Education"
@@ -82,22 +81,6 @@ const Home: React.FC = () => {
                             />
                             <CardContent>
                                 Find jobs by filtering on your education.  <br/>
-                                Written in Django.
-                            </CardContent>
-                        </Card>
-                    </a>
-                    <a href="https://www.email-collect.com" target="_blank">
-                        <Card className={classes.root}>
-                            <CardHeader 
-                                title="Email Collect"
-                            />
-                            <CardMedia
-                                className={classes.media}
-                                image={ecPhoto}
-                                title="Email Collect"
-                            />
-                            <CardContent>
-                                Easily collect emails.  <br/>
                                 Written in Django.
                             </CardContent>
                         </Card>

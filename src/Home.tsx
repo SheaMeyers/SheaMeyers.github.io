@@ -87,7 +87,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://anonymous-reviewer-app.herokuapp.com/" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SheaMeyers/anonymous-reviewer-django-react" target="_blank" rel="noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Anonymous Reviewer"
@@ -103,7 +103,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://email-collection-app.herokuapp.com/" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SheaMeyers/email-collection-app" target="_blank" rel="noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Email Collect"

@@ -2,6 +2,10 @@ html, body, #root {
     height: 100%;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .Home-body {
     display: flex;
     flex-shrink: 0;

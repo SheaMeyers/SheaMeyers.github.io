@@ -8,6 +8,8 @@ import CardContent from '@material-ui/core/CardContent';
 import homePhoto from './homePhoto.jpg';
 import wcPhoto from './wcPhoto.jpg';
 import jbePhoto from './jbePhoto.jpg';
+import arPhoto from './arPhoto.jpg';
+import ecPhoto from './ecPhoto.jpg';
 import salaryPhoto from './salaryPhoto.jpg';
 import pizzaPhoto from './pizzaPhoto.jpg';
 import indecisionPhoto from './indecisionPhoto.jpg';
@@ -85,62 +87,102 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/react-expensify-app")}>
-                        <CardHeader 
-                            title="Expensify App"
-                        />
-                        <CardMedia
-                            className={classes.media}
-                            image={expensifyPhoto}
-                            title="Expensify App"
-                        />
-                        <CardContent>
-                            Track expenses. <br/>
-                            Written in ReactJS.
-                        </CardContent>
-                    </Card>
-                    <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/react-indecision-app")}>
-                        <CardHeader 
-                            title="Indecision App"
-                        />
-                        <CardMedia
-                            className={classes.media}
-                            image={indecisionPhoto}
-                            title="Indecision App"
-                        />
-                        <CardContent>
-                            Give a set of decisions and randomly get a decision for you.<br/>
-                            Written in ReactJS.
-                        </CardContent>
-                    </Card>
-                    <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/pizza-area-comparer")}>
-                        <CardHeader 
-                            title="Pizza Area Comparer"
-                        />
-                        <CardMedia
-                            className={classes.media}
-                            image={pizzaPhoto}
-                            title="Pizza Area Comparer"
-                        />
-                        <CardContent>
-                            See which pizza or pizzas give the best value.<br/>
-                            Written in ReactJS.
-                        </CardContent>
-                    </Card>
-                    <Card className={classes.root} onClick={_ => window.open("https://sheameyers.com/salary-breakdown")}>
-                        <CardHeader 
-                            title="Salary Breakdown"
-                        />
-                        <CardMedia
-                            className={classes.media}
-                            image={salaryPhoto}
-                            title="Salary Breakdown"
-                        />
-                        <CardContent>
-                            See your salary in different amounts.<br/>
-                            Written in ReactJS.
-                        </CardContent>
-                    </Card>
+                    <a href="https://anonymous-reviewer-app.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Anonymous Reviewer"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={arPhoto}
+                                title="Anonymous Reviewer"
+                            />
+                            <CardContent>
+                                Anonymously see and review businesses.  <br/>
+                                Written in ReactJS and Django.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://email-collection-app.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Email Collect"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={ecPhoto}
+                                title="Email Collect"
+                            />
+                            <CardContent>
+                                Easily collect emails.  <br/>
+                                Written in Django.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noreferrer">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Expensify App"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={expensifyPhoto}
+                                title="Expensify App"
+                            />
+                            <CardContent>
+                                Track expenses. <br/>
+                                Written in ReactJS.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noreferrer">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Indecision App"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={indecisionPhoto}
+                                title="Indecision App"
+                            />
+                            <CardContent>
+                                Give a set of decisions and randomly get a decision for you.<br/>
+                                Written in ReactJS.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://sheameyers.com/pizza-area-comparer" target="_blank" rel="noreferrer">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Pizza Area Comparer"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={pizzaPhoto}
+                                title="Pizza Area Comparer"
+                            />
+                            <CardContent>
+                                See which pizza or pizzas give the best value.<br/>
+                                Written in ReactJS.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://sheameyers.com/salary-breakdown" target="_blank" rel="noreferrer">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Salary Breakdown"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={salaryPhoto}
+                                title="Salary Breakdown"
+                            />
+                            <CardContent>
+                                See your salary in different amounts.<br/>
+                                Written in ReactJS.
+                            </CardContent>
+                        </Card>
+                    </a>
                 </div>
             </div>
         </div>

@@ -114,7 +114,7 @@ const Home: React.FC = () => {
                                 title="Email Collect"
                             />
                             <CardContent>
-                                Easily create a page to collect emails from users or customers..  <br/>
+                                Easily create a page to collect emails from users or customers.  <br/>
                                 Written in Django.
                             </CardContent>
                         </Card>

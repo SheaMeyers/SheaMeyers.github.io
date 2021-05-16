@@ -66,7 +66,7 @@ const Home: React.FC = () => {
                                 title="Worker Coordinator"
                             />
                             <CardContent>
-                                Coordinate with your workers.  <br/>
+                                Coordinate with your workers.<br/>
                                 Written in ReactJS and Django.
                             </CardContent>
                         </Card>
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
                                 title="Jobs By Education"
                             />
                             <CardContent>
-                                Find jobs by filtering on your education.  <br/>
+                                Find jobs by filtering on your education.<br/>
                                 Written in Django.
                             </CardContent>
                         </Card>
@@ -98,7 +98,7 @@ const Home: React.FC = () => {
                                 title="Anonymous Reviewer"
                             />
                             <CardContent>
-                                Anonymously see and review businesses.  <br/>
+                                Anonymously see and review businesses.<br/>
                                 Written in ReactJS and Django.
                             </CardContent>
                         </Card>
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
                                 title="Email Collect"
                             />
                             <CardContent>
-                                Easily create a page to collect emails from users or customers.  <br/>
+                                Easily create a page to collect emails from users or customers.<br/>
                                 Written in Django.
                             </CardContent>
                         </Card>
@@ -130,7 +130,7 @@ const Home: React.FC = () => {
                                 title="Expensify App"
                             />
                             <CardContent>
-                                Track expenses. <br/>
+                                Track expenses.<br/>
                                 Written in ReactJS.
                             </CardContent>
                         </Card>

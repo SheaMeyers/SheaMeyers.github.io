@@ -4,8 +4,6 @@ import { Navbar, Nav } from 'react-bootstrap';
 import './HeaderBar.css';
 
 const HeaderBar: React.FC = () => {
-    const pathname = useLocation().pathname;
-
     return (
         <Navbar bg="light" expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

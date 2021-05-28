@@ -1,10 +1,13 @@
-import React from 'react';
-import HeaderBar from './HeaderBar';
+import React, { useState } from 'react';
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
+import axios from 'axios';
+import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
+import TextField from '@material-ui/core/TextField';
+import HeaderBar from './HeaderBar';
 import homePhoto from './homePhoto.jpg';
 import inquiryBackground from './inquiryBackground.jpg';
 import wcPhoto from './wcPhoto.jpg';
@@ -28,6 +31,12 @@ const useStyles = makeStyles((theme: Theme) =>
         transform: "scale(1.05)",
       }
     },
+    inquiryCard: {
+        position: "absolute",
+        top: "15vw",
+        left: "25vw",
+        right: "25vw",
+    },
     media: {
       height: 0,
       paddingTop: '56.25%', // 16:9
@@ -40,6 +49,7 @@ const useStyles = makeStyles((theme: Theme) =>
 const Home: React.FC = () => {
 
     const classes = useStyles();
+    const [feedbackMessage, setFeedbackMessage] = useState<string>('');
 
     return (
         <div className="Home-body">
@@ -53,6 +63,60 @@ const Home: React.FC = () => {
             <div className="Inquiry-portion">
                 <img className="InquiryPhoto"  src={inquiryBackground} alt="Custom websites, web apps, and mobile apps" title="Custom websites, web apps, and mobile apps"/>
                 <h1 className="Inquiry-text">Custom Websites, Web Apps, and Mobile Apps</h1>
+                <Card className={classes.inquiryCard}>
+                    <CardContent>
+                        <form className="Inquiry-form" onSubmit={event => {
+                            event.persist();
+                            event.preventDefault();
+
+                            // @ts-ignore
+                            const elements = event.target.elements;
+                            const companyName = elements.companyName.value;
+                            const username = elements.username.value;
+                            const password = elements.password.value;
+
+                            axios.post(`/backend/sign-in/`, {
+                                company_name: companyName,
+                                username: username,
+                                password: password
+                            })
+                                .then(_ => setFeedbackMessage("Success!  I will email you back as soon as I can"))
+                                .catch(_ => setFeedbackMessage("Unable to submit.  Please try again later"))
+
+                        }}>
+                            <TextField
+                                id="outlined-name-input"
+                                label="Name"
+                                name="name"
+                                margin="normal"
+                                variant="outlined"
+                                type="text"
+                            />
+                            <TextField
+                                id="outlined-email-input"
+                                label="Email"
+                                name="email"
+                                margin="normal"
+                                variant="outlined"
+                                type="email"
+                            />
+                            <TextField
+                                id="outlined-inquery-input"
+                                label="What are you looking to create?"
+                                name="inquiry"
+                                margin="normal"
+                                variant="outlined"
+                                type="text"
+                                multiline
+                                rows={4}
+                            />
+                            <Button variant="contained" color="primary" type="submit">
+                                Submit
+                            </Button>
+                            {feedbackMessage && <p>{feedbackMessage}</p>}
+                        </form>
+                    </CardContent>
+                </Card>
             </div>
             <div className="Projects-portion">
                 <h2 className="Projects-portion--title">Projects</h2>

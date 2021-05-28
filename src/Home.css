@@ -34,6 +34,11 @@ a:hover {
     font-size: 4vw;
 }
 
+.Inquiry-form {
+    display: flex;
+    flex-direction: column;
+}
+
 .Main-portion {
     position: relative;
     text-align: center;

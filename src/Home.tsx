@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     inquiryCard: {
         position: "absolute",
-        top: "15vw",
+        top: "10vw",
         left: "25vw",
         right: "25vw",
     },
@@ -80,9 +80,8 @@ const Home: React.FC = () => {
                                 username: username,
                                 password: password
                             })
-                                .then(_ => setFeedbackMessage("Success!  I will email you back as soon as I can"))
-                                .catch(_ => setFeedbackMessage("Unable to submit.  Please try again later"))
-
+                            .then(_ => setFeedbackMessage("Success!  I will email you back as soon as I can."))
+                            .catch(_ => _)
                         }}>
                             <TextField
                                 id="outlined-name-input"
@@ -113,7 +112,9 @@ const Home: React.FC = () => {
                             <Button variant="contained" color="primary" type="submit">
                                 Submit
                             </Button>
-                            {feedbackMessage && <p>{feedbackMessage}</p>}
+                            {feedbackMessage && 
+                                <div className="Inquiry-success-message">{feedbackMessage}</div>
+                            }
                         </form>
                     </CardContent>
                 </Card>

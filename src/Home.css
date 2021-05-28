@@ -39,6 +39,14 @@ a:hover {
     flex-direction: column;
 }
 
+.Inquiry-success-message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    color: #270;
+    background-color: #DFF2BF;
+}
+
 .Main-portion {
     position: relative;
     text-align: center;

@@ -6,6 +6,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import homePhoto from './homePhoto.jpg';
+import inquiryBackground from './inquiryBackground.jpg';
 import wcPhoto from './wcPhoto.jpg';
 import jbePhoto from './jbePhoto.jpg';
 import arPhoto from './arPhoto.jpg';
@@ -20,7 +21,7 @@ import './Home.css';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      width: "600px",
+      width: "40vw",
       margin: "20px",
       cursor: "pointer",
       '&:hover': {
@@ -49,29 +50,15 @@ const Home: React.FC = () => {
                 <h2 className="Main-portion--job">Fullstack Web Developer</h2>
                 <p><i className="Down-arrow"></i></p>
             </div>
+            <div className="Inquiry-portion">
+                <img className="InquiryPhoto"  src={inquiryBackground} alt="Custom websites, web apps, and mobile apps" title="Custom websites, web apps, and mobile apps"/>
+                <h1 className="Inquiry-text">Custom Websites, Web Apps, and Mobile Apps</h1>
+            </div>
             <div className="Projects-portion">
                 <h2 className="Projects-portion--title">Projects</h2>
-                <p>I mostly program with ReactJS and Django.</p>
-                <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--projects">
-                    <a href="https://www.workercoordinator.com" target="_blank" rel="noreferrer">
-                        <Card className={classes.root}>
-                            <CardHeader 
-                                title="Worker Coordinator"
-                            />
-                            <CardMedia
-                                className={classes.media}
-                                image={wcPhoto}
-                                title="Worker Coordinator"
-                            />
-                            <CardContent>
-                                Coordinate with your workers.<br/>
-                                Written in ReactJS and Django.
-                            </CardContent>
-                        </Card>
-                    </a>
-                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Jobs By Education"
@@ -82,12 +69,26 @@ const Home: React.FC = () => {
                                 title="Jobs By Education"
                             />
                             <CardContent>
-                                Find jobs by filtering on your education.<br/>
-                                Written in Django.
+                                Find jobs by filtering on your education.
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://github.com/SheaMeyers/anonymous-reviewer-django-react" target="_blank" rel="noreferrer">
+                    <a href="https://worker-coordinator.herokuapp.com/" target="_blank" rel="noopener">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Worker Coordinator"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={wcPhoto}
+                                title="Worker Coordinator"
+                            />
+                            <CardContent>
+                                Provides a dashboard to coordinate with your workers.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://anonymous-reviewer-app.herokuapp.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Anonymous Reviewer"
@@ -98,12 +99,11 @@ const Home: React.FC = () => {
                                 title="Anonymous Reviewer"
                             />
                             <CardContent>
-                                Anonymously see and review businesses.<br/>
-                                Written in ReactJS and Django.
+                                Anonymously see and review businesses.
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://github.com/SheaMeyers/email-collection-app" target="_blank" rel="noreferrer">
+                    <a href="https://email-collection-app.herokuapp.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Email Collect"
@@ -114,12 +114,11 @@ const Home: React.FC = () => {
                                 title="Email Collect"
                             />
                             <CardContent>
-                                Easily create a page to collect emails from users or customers.<br/>
-                                Written in Django.
+                                Easily create a page to collect emails from users or customers.
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noreferrer">
+                    <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Expensify App"
@@ -130,12 +129,11 @@ const Home: React.FC = () => {
                                 title="Expensify App"
                             />
                             <CardContent>
-                                Track expenses.<br/>
-                                Written in ReactJS.
+                                Allows you to add, delete, edit, and filter expenses.
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noreferrer">
+                    <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Indecision App"
@@ -146,12 +144,11 @@ const Home: React.FC = () => {
                                 title="Indecision App"
                             />
                             <CardContent>
-                                Give a set of decisions and randomly get a decision for you.<br/>
-                                Written in ReactJS.
+                                Give a set of decisions and randomly get a decision for you.
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/pizza-area-comparer" target="_blank" rel="noreferrer">
+                    <a href="https://sheameyers.com/pizza-area-comparer" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Pizza Area Comparer"
@@ -162,12 +159,11 @@ const Home: React.FC = () => {
                                 title="Pizza Area Comparer"
                             />
                             <CardContent>
-                                See which pizza or pizzas give the best value.<br/>
-                                Written in ReactJS.
+                                See which pizza or pizzas give the best value.
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/salary-breakdown" target="_blank" rel="noreferrer">
+                    <a href="https://sheameyers.com/salary-breakdown" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Salary Breakdown"
@@ -178,8 +174,7 @@ const Home: React.FC = () => {
                                 title="Salary Breakdown"
                             />
                             <CardContent>
-                                See your salary in different amounts.<br/>
-                                Written in ReactJS.
+                                See your salary in different amounts.
                             </CardContent>
                         </Card>
                     </a>

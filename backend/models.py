@@ -1,3 +1,9 @@
 from django.db import models
+from django.utils import timezone
 
-# Create your models here.
+
+class Inquiry(models.Model):
+    date_made = models.DateTimeField(default=timezone.now)
+    name = models.CharField(max_length=200)
+    email = models.EmailField()
+    message = models.TextField()

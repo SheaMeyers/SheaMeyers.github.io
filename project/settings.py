@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-v73te)x_^l5c4=xxp!e=!&w&p00q%9j!y7p(v+_-pj5&)lalti
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'sheameyers.com']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'rest_framework',
+    'backend',
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,10 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 PAGE_CACHE = 60 * 60  # cache for 1 hour
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "shea.meyers@gmail.com"
+EMAIL_HOST_PASSWORD = "fbvdtshmexmurcox"

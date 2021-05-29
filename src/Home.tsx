@@ -71,14 +71,16 @@ const Home: React.FC = () => {
 
                             // @ts-ignore
                             const elements = event.target.elements;
-                            const companyName = elements.companyName.value;
-                            const username = elements.username.value;
-                            const password = elements.password.value;
+                            const name = elements.name.value;
+                            const email = elements.email.value;
+                            const message = elements.message.value;
 
-                            axios.post(`/backend/sign-in/`, {
-                                company_name: companyName,
-                                username: username,
-                                password: password
+                            setFeedbackMessage("Sending...")
+
+                            axios.post(`http://localhost:8000/backend/create-inquiry/`, {
+                                name: name,
+                                email: email,
+                                message: message
                             })
                             .then(_ => setFeedbackMessage("Success!  I will email you back as soon as I can."))
                             .catch(_ => _)
@@ -100,9 +102,9 @@ const Home: React.FC = () => {
                                 type="email"
                             />
                             <TextField
-                                id="outlined-inquery-input"
-                                label="What are you looking to create?"
-                                name="inquiry"
+                                id="outlined-message-input"
+                                label="Need something made? Let me know!"
+                                name="message"
                                 margin="normal"
                                 variant="outlined"
                                 type="text"
@@ -110,7 +112,7 @@ const Home: React.FC = () => {
                                 rows={4}
                             />
                             <Button variant="contained" color="primary" type="submit">
-                                Submit
+                                Send
                             </Button>
                             {feedbackMessage && 
                                 <div className="Inquiry-success-message">{feedbackMessage}</div>

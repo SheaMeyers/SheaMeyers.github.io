@@ -22,5 +22,9 @@ from django.views.generic.base import TemplateView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('backend/', include("backend.urls")),
+    path('robots.txt', TemplateView.as_view(template_name='robots.txt', content_type='text/plain')),
+    path('sitemap.xml', TemplateView.as_view(template_name='sitemap.xml', content_type='text/plain')),
+    # Pass any path that doesn't explicitly match a
+    #   django endpoint to react router to match
     re_path(r'^.*', cache_page(settings.PAGE_CACHE)(TemplateView.as_view(template_name='index.html'))),
 ]

@@ -3,3 +3,6 @@
 User-agent: *
 
 Sitemap: https://sheameyers.com/sitemap.xml
+
+Disallow: /admin/
+Allow: *

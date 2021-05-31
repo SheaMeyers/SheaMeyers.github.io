@@ -57,7 +57,7 @@ const Home: React.FC = () => {
             <div className="Main-portion">
                 <img className="Photo" src={homePhoto} alt="Shea Meyers" title="Shea Meyers"/>
                 <h1 className="Main-portion--name">Shea Meyers</h1>
-                <h2 className="Main-portion--job">Fullstack Web Developer</h2>
+                <h2 className="Main-portion--job">Software Developer</h2>
                 <p><i className="Down-arrow"></i></p>
             </div>
             <div className="Inquiry-portion">

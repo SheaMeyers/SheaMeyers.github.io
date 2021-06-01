@@ -140,7 +140,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://worker-coordinator.herokuapp.com/" target="_blank" rel="noopener">
+                    <a href="https://www.workercoordinator.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Worker Coordinator"

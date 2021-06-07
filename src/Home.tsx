@@ -15,6 +15,7 @@ import jbePhoto from './jbePhoto.jpg';
 import arPhoto from './arPhoto.jpg';
 import ecPhoto from './ecPhoto.jpg';
 import salaryPhoto from './salaryPhoto.jpg';
+import sgcPhoto from './sgcPhoto.jpg';
 import pizzaPhoto from './pizzaPhoto.jpg';
 import indecisionPhoto from './indecisionPhoto.jpg';
 import expensifyPhoto from './expensifyPhoto.jpg';
@@ -125,18 +126,19 @@ const Home: React.FC = () => {
                 <h2 className="Projects-portion--title">Projects</h2>
                 <br/>
                 <div className="Projects-portion--projects">
-                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener">
+                <a href="https://www.seatgeekcalendar.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
-                                title="Jobs By Education"
+                                title="Seat Geek Calendar"
                             />
                             <CardMedia
                                 className={classes.media}
-                                image={jbePhoto}
-                                title="Jobs By Education"
+                                image={sgcPhoto}
+                                title="Seat Geek Calendar"
                             />
                             <CardContent>
-                                Find jobs by filtering on your education.
+                                A calendar to keep track of your favorite bands or sports teams and
+                                see their shows or games on a single calendar.
                             </CardContent>
                         </Card>
                     </a>
@@ -152,6 +154,21 @@ const Home: React.FC = () => {
                             />
                             <CardContent>
                                 Provides a dashboard to coordinate with your workers.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Jobs By Education"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={jbePhoto}
+                                title="Jobs By Education"
+                            />
+                            <CardContent>
+                                Find jobs by filtering on your education.
                             </CardContent>
                         </Card>
                     </a>

@@ -10,6 +10,7 @@ import wcPhoto from './wcPhoto.jpg';
 import jbePhoto from './jbePhoto.jpg';
 import arPhoto from './arPhoto.jpg';
 import ecPhoto from './ecPhoto.jpg';
+import sgcPhoto from './sgcPhoto.jpg';
 import salaryPhoto from './salaryPhoto.jpg';
 import pizzaPhoto from './pizzaPhoto.jpg';
 import indecisionPhoto from './indecisionPhoto.jpg';
@@ -20,7 +21,7 @@ import './Home.css';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      width: "600px",
+      width: "40vw",
       margin: "20px",
       cursor: "pointer",
       '&:hover': {
@@ -46,7 +47,7 @@ const Home: React.FC = () => {
             <div className="Main-portion">
                 <img className="Photo" src={homePhoto} alt="Shea Meyers" title="Shea Meyers"/>
                 <h1 className="Main-portion--name">Shea Meyers</h1>
-                <h2 className="Main-portion--job">Fullstack Web Developer</h2>
+                <h2 className="Main-portion--job">Software Developer</h2>
                 <p><i className="Down-arrow"></i></p>
             </div>
             <div className="Projects-portion">
@@ -55,7 +56,23 @@ const Home: React.FC = () => {
                 <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--projects">
-                    <a href="https://www.workercoordinator.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.seatgeekcalendar.com/" target="_blank" rel="noopener">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Seat Geek Calendar"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={sgcPhoto}
+                                title="Seat Geek Calendar"
+                            />
+                            <CardContent>
+                                A calendar to keep track of your favorite performers.<br/>
+                                Written in ReactJS and Django.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://www.workercoordinator.com" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Worker Coordinator"
@@ -66,12 +83,12 @@ const Home: React.FC = () => {
                                 title="Worker Coordinator"
                             />
                             <CardContent>
-                                Coordinate with your workers.<br/>
+                                Provides a dashboard to coordinate with your workers.<br/>
                                 Written in ReactJS and Django.
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Jobs By Education"
@@ -87,7 +104,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://github.com/SheaMeyers/anonymous-reviewer-django-react" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SheaMeyers/anonymous-reviewer-django-react" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Anonymous Reviewer"
@@ -103,7 +120,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://github.com/SheaMeyers/email-collection-app" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SheaMeyers/email-collection-app" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Email Collect"
@@ -119,7 +136,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noreferrer">
+                    <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Expensify App"
@@ -135,7 +152,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noreferrer">
+                    <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Indecision App"
@@ -151,7 +168,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/pizza-area-comparer" target="_blank" rel="noreferrer">
+                    <a href="https://sheameyers.com/pizza-area-comparer" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Pizza Area Comparer"
@@ -167,7 +184,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/salary-breakdown" target="_blank" rel="noreferrer">
+                    <a href="https://sheameyers.com/salary-breakdown" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Salary Breakdown"

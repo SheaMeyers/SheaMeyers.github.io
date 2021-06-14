@@ -52,7 +52,7 @@ const Home: React.FC = () => {
             </div>
             <div className="Projects-portion">
                 <h2 className="Projects-portion--title">Projects</h2>
-                <p>I mostly program with ReactJS and Django.</p>
+                <p>I mostly program with React and Django.</p>
                 <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--projects">
@@ -104,7 +104,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://github.com/SheaMeyers/anonymous-reviewer-django-react" target="_blank" rel="noopener">
+                    <a href="https://anonymous-reviewer-app.herokuapp.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Anonymous Reviewer"
@@ -120,7 +120,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://github.com/SheaMeyers/email-collection-app" target="_blank" rel="noopener">
+                    <a href="https://email-collection-app.herokuapp.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Email Collect"

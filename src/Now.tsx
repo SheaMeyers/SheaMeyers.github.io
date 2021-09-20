@@ -29,12 +29,11 @@ const Now: React.FC = () => {
                             </li>
                             <li>
                                 Projects:  On my home page you'll some of these projects.
-                                Now that these are created I'm studying the marketing involved in getting
-                                users to find your project and to start using them.
+                                I usually have something I work on in my spare time
                             </li>
                             <li>
                                 Gaming:  My wife and I got a Nintendo Switch for Christmas so I've been
-                                playing video games, especially "The Legend of Zelda: Breath of the Wild"
+                                playing video games, especially "The Legend of Zelda: Skyward Sword"
                             </li>
                         </ul>
                         <p className="Left-padding">

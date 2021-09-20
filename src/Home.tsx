@@ -13,6 +13,7 @@ import ecPhoto from './ecPhoto.jpg';
 import sgcPhoto from './sgcPhoto.jpg';
 import salaryPhoto from './salaryPhoto.jpg';
 import pizzaPhoto from './pizzaPhoto.jpg';
+import dateDiff from './dateDiff.jpg';
 import indecisionPhoto from './indecisionPhoto.jpg';
 import expensifyPhoto from './expensifyPhoto.jpg';
 import './Home.css';
@@ -196,6 +197,22 @@ const Home: React.FC = () => {
                             />
                             <CardContent>
                                 See your salary in different amounts.<br/>
+                                Written in ReactJS.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://sheameyers.com/date-diff" target="_blank" rel="noopener">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Date Difference"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={dateDiff}
+                                title="Date Difference"
+                            />
+                            <CardContent>
+                                See how many days are between two dates.<br/>
                                 Written in ReactJS.
                             </CardContent>
                         </Card>

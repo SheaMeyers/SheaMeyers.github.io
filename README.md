@@ -27,6 +27,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## Running with Django
+
+```
+npm run build; python manage.py collectstatic --no-input; python manage.py runserver
+```
+
+
 ## Deploying to Github Pages
 
 Copy all files in this directory to /SheaMeyers.github.io

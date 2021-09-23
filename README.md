@@ -33,7 +33,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 npm run build; python manage.py collectstatic --no-input; python manage.py runserver
 ```
 
-
 ## Deploying to Github Pages
 
 Copy all files in this directory to /SheaMeyers.github.io

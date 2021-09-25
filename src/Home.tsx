@@ -201,7 +201,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="date-difference.sheameyers.com/" target="_blank" rel="noopener">
+                    <a href="https://date-difference.sheameyers.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Date Difference"

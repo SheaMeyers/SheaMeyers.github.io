@@ -137,7 +137,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/react-expensify-app" target="_blank" rel="noopener">
+                    <a href="https://expensify-app.sheameyers.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Expensify App"
@@ -153,7 +153,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/react-indecision-app" target="_blank" rel="noopener">
+                    <a href="https://indecision-app.sheameyers.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Indecision App"
@@ -169,7 +169,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/pizza-area-comparer" target="_blank" rel="noopener">
+                    <a href="https://pizza-area-comparer.sheameyers.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Pizza Area Comparer"
@@ -185,7 +185,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/salary-breakdown" target="_blank" rel="noopener">
+                    <a href="https://salary-breakdown.sheameyers.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Salary Breakdown"
@@ -201,7 +201,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://sheameyers.com/date-diff" target="_blank" rel="noopener">
+                    <a href="date-difference.sheameyers.com/" target="_blank" rel="noopener">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Date Difference"

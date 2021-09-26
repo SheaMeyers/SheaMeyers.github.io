@@ -57,7 +57,7 @@ const Home: React.FC = () => {
                 <p>Other projects can be found on my Github.</p>
                 <br/>
                 <div className="Projects-portion--projects">
-                    <a href="https://www.seatgeekcalendar.com/" target="_blank" rel="noopener">
+                    <a href="https://www.seatgeekcalendar.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Seat Geek Calendar"
@@ -73,7 +73,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://www.workercoordinator.com" target="_blank" rel="noopener">
+                    <a href="https://www.workercoordinator.com" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Worker Coordinator"
@@ -89,7 +89,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener">
+                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Jobs By Education"
@@ -105,7 +105,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://anonymous-reviewer-app.herokuapp.com/" target="_blank" rel="noopener">
+                    <a href="https://anonymous-reviewer-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Anonymous Reviewer"
@@ -121,7 +121,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://email-collection-app.herokuapp.com/" target="_blank" rel="noopener">
+                    <a href="https://email-collection-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Email Collect"
@@ -137,7 +137,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://expensify-app.sheameyers.com/" target="_blank" rel="noopener">
+                    <a href="https://expensify-app.sheameyers.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Expensify App"
@@ -153,7 +153,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://indecision-app.sheameyers.com/" target="_blank" rel="noopener">
+                    <a href="https://indecision-app.sheameyers.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Indecision App"
@@ -169,7 +169,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://pizza-area-comparer.sheameyers.com/" target="_blank" rel="noopener">
+                    <a href="https://pizza-area-comparer.sheameyers.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Pizza Area Comparer"
@@ -185,7 +185,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://salary-breakdown.sheameyers.com/" target="_blank" rel="noopener">
+                    <a href="https://salary-breakdown.sheameyers.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Salary Breakdown"
@@ -201,7 +201,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://date-difference.sheameyers.com/" target="_blank" rel="noopener">
+                    <a href="https://date-difference.sheameyers.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Date Difference"

@@ -89,7 +89,7 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://www.jobsbyeducation.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://job-education-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
                                 title="Jobs By Education"

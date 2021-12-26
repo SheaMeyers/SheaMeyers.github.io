@@ -14,6 +14,7 @@ import sgcPhoto from './sgcPhoto.jpg';
 import salaryPhoto from './salaryPhoto.jpg';
 import pizzaPhoto from './pizzaPhoto.jpg';
 import dateDiff from './dateDiff.jpg';
+import randomGif from './randomGif.jpg';
 import indecisionPhoto from './indecisionPhoto.jpg';
 import expensifyPhoto from './expensifyPhoto.jpg';
 import './Home.css';
@@ -89,19 +90,19 @@ const Home: React.FC = () => {
                             </CardContent>
                         </Card>
                     </a>
-                    <a href="https://job-education-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://random-gif.sheameyers.com/" target="_blank" rel="noopener noreferrer">
                         <Card className={classes.root}>
                             <CardHeader 
-                                title="Jobs By Education"
+                                title="Random Gif"
                             />
                             <CardMedia
                                 className={classes.media}
-                                image={jbePhoto}
-                                title="Jobs By Education"
+                                image={randomGif}
+                                title="Random Gif"
                             />
                             <CardContent>
-                                Find jobs by filtering on your education.<br/>
-                                Written in Django.
+                                Displays random gifs and also offers searching for gifs.<br/>
+                                Written in ReactJS.
                             </CardContent>
                         </Card>
                     </a>
@@ -118,6 +119,22 @@ const Home: React.FC = () => {
                             <CardContent>
                                 Anonymously see and review businesses.<br/>
                                 Written in ReactJS and Django.
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://job-education-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <Card className={classes.root}>
+                            <CardHeader 
+                                title="Jobs By Education"
+                            />
+                            <CardMedia
+                                className={classes.media}
+                                image={jbePhoto}
+                                title="Jobs By Education"
+                            />
+                            <CardContent>
+                                Find jobs by filtering on your education.<br/>
+                                Written in Django.
                             </CardContent>
                         </Card>
                     </a>

@@ -28,12 +28,14 @@ const Now: React.FC = () => {
                                 covid situation this is difficult
                             </li>
                             <li>
-                                Projects:  On my home page you'll some of these projects.
-                                I usually have something I work on in my spare time
+                                Programming:  I'm focusing on ReactJS and NodeJS.
+                                I enjoy working with both of these technologies and really like the 
+                                features that ES6 has offered.  Normally I use TypeScript as well.
                             </li>
                             <li>
-                                Gaming:  My wife and I got a Nintendo Switch for Christmas so I've been
-                                playing video games, especially "The Legend of Zelda: Skyward Sword"
+                                Gaming:  I have both a Nintendo Switch and an Oculus Quest 2.
+                                On the Nintendo Switch I've mostly been playing Super Smash Bros Ultimate with my wife
+                                and on the Quest 2 I've been playing In Death: Unchained.
                             </li>
                         </ul>
                         <p className="Left-padding">

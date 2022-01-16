@@ -58,10 +58,8 @@ const AboutMe: React.FC = () => {
             </div>
             <div className="About-me-non-white-section">
                 <p className="About-me-section__text">
-                    After many job applications and a few interviews I received a job working with the company Calendar42,  
-                    which would eventually be rebranded to Toogethr.
-                    I worked with Toogethr for three and half years and decided I wanted a new challenge and got a 
-                    new job where I am currently working, Maykin Media.
+                    After many job applications and a few interviews I received a job where I would be working
+                    in the Netherlands and I've been working here and living here ever since then.
                 </p>
             </div>
             <div className="About-me-section">

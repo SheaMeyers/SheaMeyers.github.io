@@ -50,7 +50,6 @@ const Home: React.FC = () => {
                 <img className="Photo" src={homePhoto} alt="Shea Meyers" title="Shea Meyers"/>
                 <h1 className="Main-portion--name">Shea Meyers</h1>
                 <h2 className="Main-portion--job">Software Developer</h2>
-                <p><i className="Down-arrow"></i></p>
             </div>
             <div className="Projects-portion">
                 <h2 className="Projects-portion--title">Projects</h2>

@@ -56,7 +56,7 @@ const Home: React.FC = () => {
       <div className="Projects-portion">
         <div>
           <h2 className="Projects-portion--title">Personal Projects</h2>
-          <p>I mostly program with React and Django.</p>
+          <p>I mostly program with ReactJS (JavaScript) and Django (Python).</p>
           <p>Other projects can be found on my Github.</p>
           <br />
         </div>
@@ -76,7 +76,26 @@ const Home: React.FC = () => {
               <CardContent>
                 A calendar to keep track of your favorite performers.
                 <br />
-                Written in ReactJS and Django.
+                Written in ReactJS.
+              </CardContent>
+            </Card>
+          </a>
+          <a
+            href="https://findagiphy.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card className={classes.root}>
+              <CardHeader title="Random Gif" />
+              <CardMedia
+                className={classes.media}
+                image={randomGif}
+                title="Random Gif"
+              />
+              <CardContent>
+                Displays random gifs and also offers searching for gifs.
+                <br />
+                Written in ReactJS.
               </CardContent>
             </Card>
           </a>
@@ -96,25 +115,6 @@ const Home: React.FC = () => {
                 Provides a dashboard to coordinate with your workers.
                 <br />
                 Written in ReactJS and Django.
-              </CardContent>
-            </Card>
-          </a>
-          <a
-            href="https://random-gif.sheameyers.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className={classes.root}>
-              <CardHeader title="Random Gif" />
-              <CardMedia
-                className={classes.media}
-                image={randomGif}
-                title="Random Gif"
-              />
-              <CardContent>
-                Displays random gifs and also offers searching for gifs.
-                <br />
-                Written in ReactJS.
               </CardContent>
             </Card>
           </a>

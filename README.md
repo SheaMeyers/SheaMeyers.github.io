@@ -12,6 +12,14 @@ npm run build; python manage.py collectstatic --no-input; python manage.py runse
 
 ## Deploying to Heroku
 
+Add heroku remote
+
+```
+heroku git:remote -a shea-meyers-personal-website
+```
+
+and then push
+
 ```
 git push heroku master
 ```

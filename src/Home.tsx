@@ -51,7 +51,7 @@ const Home: React.FC = () => {
           title="Shea Meyers"
         />
         <h1 className="Main-portion--name">Shea Meyers</h1>
-        <h2 className="Main-portion--job">Software Developer</h2>
+        <h2 className="Main-portion--job">Web Developer</h2>
       </div>
       <div className="Projects-portion">
         <div>

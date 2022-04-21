@@ -18,6 +18,7 @@ import randomGif from "./randomGif.jpg";
 import indecisionPhoto from "./indecisionPhoto.jpg";
 import expensifyPhoto from "./expensifyPhoto.jpg";
 import weatherPhoto from "./weatherPhoto.jpg";
+import reactFakeStore from "./reactFakeStore.jpg";
 import "./Home.css";
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -94,6 +95,25 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 Displays random gifs and also offers searching for gifs.
+                <br />
+                Written in ReactJS.
+              </CardContent>
+            </Card>
+          </a>
+          <a
+            href="https://react-fake-store.sheameyers.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card className={classes.root}>
+              <CardHeader title="React Fake Store" />
+              <CardMedia
+                className={classes.media}
+                image={reactFakeStore}
+                title="React Fake Store"
+              />
+              <CardContent>
+                A fake store.
                 <br />
                 Written in ReactJS.
               </CardContent>

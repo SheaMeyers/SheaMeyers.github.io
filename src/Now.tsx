@@ -24,18 +24,16 @@ const Now: React.FC = () => {
                         <ul>
                             <li>
                                 Learning Dutch:  I do this by reading books, watching TV, and writing.  
-                                I also try to speak Dutch whenever possible but with the current
-                                covid situation this is difficult
+                                I also try to speak Dutch whenever possible
                             </li>
                             <li>
-                                Programming:  I'm focusing on ReactJS and NodeJS.
+                                Programming:  I'm focusing on C# and a bit on NodeJS.
                                 I enjoy working with both of these technologies and really like the 
-                                features that ES6 has offered.  Normally I use TypeScript as well.
+                                features that they offer.
                             </li>
                             <li>
-                                Gaming:  I have both a Nintendo Switch and an Oculus Quest 2.
-                                On the Nintendo Switch I've mostly been playing Super Smash Bros Ultimate with my wife
-                                and on the Quest 2 I've been playing In Death: Unchained.
+                                Gaming:  I have a Nintendo Switch and have been replaying Ocarina of Time and
+                                Majora's Mask while I wait for Tears of the Kingdom to be released.
                             </li>
                         </ul>
                         <p className="Left-padding">

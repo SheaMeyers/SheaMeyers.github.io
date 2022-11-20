@@ -6,10 +6,6 @@ import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import homePhoto from "./homePhoto.jpg";
-import wcPhoto from "./wcPhoto.jpg";
-import jbePhoto from "./jbePhoto.jpg";
-import arPhoto from "./arPhoto.jpg";
-import ecPhoto from "./ecPhoto.jpg";
 import sgcPhoto from "./sgcPhoto.jpg";
 import salaryPhoto from "./salaryPhoto.jpg";
 import pizzaPhoto from "./pizzaPhoto.jpg";
@@ -17,7 +13,6 @@ import dateDiff from "./dateDiff.jpg";
 import randomGif from "./randomGif.jpg";
 import indecisionPhoto from "./indecisionPhoto.jpg";
 import expensifyPhoto from "./expensifyPhoto.jpg";
-import weatherPhoto from "./weatherPhoto.jpg";
 import reactFakeStore from "./reactFakeStore.jpg";
 import "./Home.css";
 

@@ -57,8 +57,8 @@ const Home: React.FC = () => {
       <div className="Projects-portion">
         <div>
           <h2 className="Projects-portion--title">Personal Projects</h2>
-          <p>I mostly program with ReactJS (JavaScript) and Django (Python).</p>
-          <p>Other projects can be found on my Github.</p>
+          <p>I mostly program with TypeScript/JavaScript (ReactJs and Node), C# (.Net), and Python (Django)</p>
+          <p>The projects listed below are all ReactJS while other projects can be found on my Github.</p>
           <br />
         </div>
         <div className="Projects-portion--projects">
@@ -76,8 +76,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 A calendar to keep track of your favorite performers.
-                <br />
-                Written in ReactJS.
               </CardContent>
             </Card>
           </a>
@@ -95,8 +93,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 Displays random gifs and also offers searching for gifs.
-                <br />
-                Written in ReactJS.
               </CardContent>
             </Card>
           </a>
@@ -114,84 +110,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 A fake store.
-                <br />
-                Written in ReactJS.
-              </CardContent>
-            </Card>
-          </a>
-          <a
-            href="https://www.workercoordinator.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className={classes.root}>
-              <CardHeader title="Worker Coordinator" />
-              <CardMedia
-                className={classes.media}
-                image={wcPhoto}
-                title="Worker Coordinator"
-              />
-              <CardContent>
-                Provides a dashboard to coordinate with your workers.
-                <br />
-                Written in ReactJS and Django.
-              </CardContent>
-            </Card>
-          </a>
-          <a
-            href="https://anonymous-reviewer-app.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className={classes.root}>
-              <CardHeader title="Anonymous Reviewer" />
-              <CardMedia
-                className={classes.media}
-                image={arPhoto}
-                title="Anonymous Reviewer"
-              />
-              <CardContent>
-                Anonymously see and review businesses.
-                <br />
-                Written in ReactJS and Django.
-              </CardContent>
-            </Card>
-          </a>
-          <a
-            href="https://job-education-app.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className={classes.root}>
-              <CardHeader title="Jobs By Education" />
-              <CardMedia
-                className={classes.media}
-                image={jbePhoto}
-                title="Jobs By Education"
-              />
-              <CardContent>
-                Find jobs by filtering on your education.
-                <br />
-                Written in Django.
-              </CardContent>
-            </Card>
-          </a>
-          <a
-            href="https://email-collection-app.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className={classes.root}>
-              <CardHeader title="Email Collect" />
-              <CardMedia
-                className={classes.media}
-                image={ecPhoto}
-                title="Email Collect"
-              />
-              <CardContent>
-                Easily create a page to collect emails from users or customers.
-                <br />
-                Written in Django.
               </CardContent>
             </Card>
           </a>
@@ -209,8 +127,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 See which pizza or pizzas give the best value.
-                <br />
-                Written in ReactJS.
               </CardContent>
             </Card>
           </a>
@@ -228,8 +144,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 See your salary in different amounts.
-                <br />
-                Written in ReactJS.
               </CardContent>
             </Card>
           </a>
@@ -247,8 +161,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 See how many days are between two dates.
-                <br />
-                Written in ReactJS.
               </CardContent>
             </Card>
           </a>
@@ -273,8 +185,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 Track expenses.
-                <br />
-                Written in ReactJS.
               </CardContent>
             </Card>
           </a>
@@ -292,27 +202,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 Give a set of decisions and randomly get a decision for you.
-                <br />
-                Written in ReactJS.
-              </CardContent>
-            </Card>
-          </a>
-          <a
-            href="https://shea-weather-app.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className={classes.root}>
-              <CardHeader title="Weather App" />
-              <CardMedia
-                className={classes.media}
-                image={weatherPhoto}
-                title="Weather App"
-              />
-              <CardContent>
-                Give a place name and get the weather.
-                <br />
-                Written in NodeJS.
               </CardContent>
             </Card>
           </a>

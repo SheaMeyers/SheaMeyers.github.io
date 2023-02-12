@@ -27,9 +27,8 @@ const Now: React.FC = () => {
                                 I also try to speak Dutch whenever possible
                             </li>
                             <li>
-                                Programming:  I'm focusing on C# and a bit on NodeJS.
-                                I enjoy working with both of these technologies and really like the 
-                                features that they offer.
+                                Programming:  I'm focusing mostly on NodeJS at the moment.
+                                Between ES6 and TypeScript, I enjoy using NodeJS as a backend language.
                             </li>
                             <li>
                                 Gaming:  I have a Nintendo Switch and have been replaying Ocarina of Time and

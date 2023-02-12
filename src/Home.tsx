@@ -6,7 +6,7 @@ import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import homePhoto from "./homePhoto.jpg";
-import sgcPhoto from "./sgcPhoto.jpg";
+import tmCalendar from "./tmCalendar.jpg";
 import salaryPhoto from "./salaryPhoto.jpg";
 import pizzaPhoto from "./pizzaPhoto.jpg";
 import dateDiff from "./dateDiff.jpg";
@@ -58,16 +58,16 @@ const Home: React.FC = () => {
         </div>
         <div className="Projects-portion--projects">
           <a
-            href="https://www.seatgeekcalendar.com/"
+            href="https://www.ticketmastercalendar.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Card className={classes.root}>
-              <CardHeader title="Seat Geek Calendar" />
+              <CardHeader title="Ticketmaster Calendar" />
               <CardMedia
                 className={classes.media}
-                image={sgcPhoto}
-                title="Seat Geek Calendar"
+                image={tmCalendar}
+                title="Ticketmaster Calendar"
               />
               <CardContent>
                 A calendar to keep track of your favorite performers.

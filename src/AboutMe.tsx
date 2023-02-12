@@ -67,7 +67,7 @@ const AboutMe: React.FC = () => {
                     One of the best benefits to living in the Netherlands is the easy ability to travel.
                     Since living here my wife and I have been able to visit 13 countries within Europe.
                     Belgium, France, Germany, Italy, Greece, Spain, Portugal, 
-                    England, Ireland, Scotland, Norway, Sweden, and Denmark.
+                    England, Ireland, Scotland, Norway, Sweden, Denmark, and South Korea.
                 </p>
             </div>
             <div className="About-me-non-white-section">

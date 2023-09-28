@@ -63,12 +63,20 @@ const AboutMe: React.FC = () => {
                 </p>
             </div>
             <div className="About-me-section">
+                <h2>Travelling</h2>
+            </div>
+            <div className="About-me-non-white-section">
                 <p className="About-me-section__text">
-                    One of the best benefits to living in the Netherlands is the easy ability to travel.
-                    Since living here my wife and I have been able to visit 13 countries within Europe.
+                    One of my favorite things to do when possible is travel.
+                    Together with my wife we've been able to travel through 22 countries.
+                    Canada, the USA, Mexico, the Netherlands, 
                     Belgium, France, Germany, Italy, Greece, Spain, Portugal, 
-                    England, Ireland, Scotland, Norway, Sweden, Denmark, and South Korea.
+                    England, Ireland, Scotland, Norway, Sweden, Denmark, 
+                    Austria, Hungary, Slovakia, South Korea, and Japan.
                 </p>
+            </div>
+            <div className="About-me-section">
+                <h2>Ongoing</h2>
             </div>
             <div className="About-me-non-white-section">
                 <p className="About-me-section__text">

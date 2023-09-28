@@ -27,12 +27,17 @@ const Now: React.FC = () => {
                                 I also try to speak Dutch whenever possible
                             </li>
                             <li>
-                                Programming:  I'm focusing mostly on NodeJS at the moment.
-                                Between ES6 and TypeScript, I enjoy using NodeJS as a backend language.
+                                Programming:  I've been working through the online courses at 
+                                craftinginterpreters.com 
+                                <a href="https://craftinginterpreters.com/" target="_blank" rel="noopener noreferrer">Crafting Interpreters</a>
+                                and 
+                                <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/" target="_blank" rel="noopener noreferrer">Operating Systems: Three Easy Pieces</a>
+                                as low-level programming is something I've been interested in recently.
                             </li>
                             <li>
-                                Gaming:  I have a Nintendo Switch and have been replaying Ocarina of Time and
-                                Majora's Mask while I wait for Tears of the Kingdom to be released.
+                                Gaming:  I'm a big The Legend of Zelda fan and have been playing 
+                                The Legend of Zelda: Tears of the Kingdom since it's release.  
+                                I've beaten the main story line but there is still much more to do in the game.
                             </li>
                         </ul>
                         <p className="Left-padding">

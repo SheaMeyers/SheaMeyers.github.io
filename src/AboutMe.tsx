@@ -68,8 +68,8 @@ const AboutMe: React.FC = () => {
             </div>
             <div className="About-me-non-white-section">
                 <p className="About-me-section__text">
-                    One of my favorite things to do when possible is travel.
-                    Together with my wife we've been able to travel through 22 countries.
+                    As mentioned earlier, one of my favorite things to do when possible is travel.
+                    Together with my wife I've been able to travel through 22 countries.
                     Canada, the USA, Mexico, the Netherlands, 
                     Belgium, France, Germany, Italy, Greece, Spain, Portugal, 
                     England, Ireland, Scotland, Norway, Sweden, Denmark, 

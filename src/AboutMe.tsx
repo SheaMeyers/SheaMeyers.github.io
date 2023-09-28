@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderBar from './HeaderBar';
+import { Link } from 'react-router-dom';
 import './AboutMe.css';
 
 const AboutMe: React.FC = () => {
@@ -7,7 +8,7 @@ const AboutMe: React.FC = () => {
         <div className="About-me">
             <HeaderBar />
             <div className="About-me-section">
-                <h2>A Quick Overview</h2>
+                <h2>A Quick Backstory</h2>
             </div>
             <div className="About-me-non-white-section">
                 <p className="About-me-section__text">
@@ -83,6 +84,12 @@ const AboutMe: React.FC = () => {
                     For now I'm continuing to integrate into Dutch culture and while 
                     I've passed both the inburgerings (integration) exams and staatsexams (state exams)
                     I still feel there is a lot to learn about both the language and culture.
+                </p>
+            </div>
+            <div className="About-me-section">
+                <p className="About-me-section__text">
+                    For more recent information, check out 
+                    <Link to={'/now'}>my now page</Link>
                 </p>
             </div>
         </div>

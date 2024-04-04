@@ -10,6 +10,8 @@ const Now: React.FC = () => {
                 <div className="Now--white-section">
                     <h6 style={{textAlign: 'center'}}>
                         <a style={{margin: '0.3rem'}} href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">This is my now page!</a>
+                        <br /><br />
+                        <p>Last updated: 4 April 2024</p>
                     </h6>
                 </div>
                 <div className="Now--non-white-section">
@@ -27,17 +29,14 @@ const Now: React.FC = () => {
                                 I also try to speak Dutch whenever possible
                             </li>
                             <li>
-                                Programming:  I've been working through the online courses at 
-                                craftinginterpreters.com 
-                                <a href="https://craftinginterpreters.com/" target="_blank" rel="noopener noreferrer">Crafting Interpreters</a>
-                                and 
-                                <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/" target="_blank" rel="noopener noreferrer">Operating Systems: Three Easy Pieces</a>
-                                as low-level programming is something I've been interested in recently.
+                                Programming:  I've been learning Haskell and Rust.
+                                Haskell is interesting to me as it's a purely functional programming language and 
+                                Rust interests me as language used mostly for systems programming but with memory safety.
                             </li>
                             <li>
-                                Gaming:  I'm a big The Legend of Zelda fan and have been playing 
-                                The Legend of Zelda: Tears of the Kingdom since it's release.  
-                                I've beaten the main story line but there is still much more to do in the game.
+                                Gaming:  At the moment I'm playing Metroid Prime.  
+                                The one originally made for GameCube but I have the Switch HD remake.  
+                                I played it as a kid and I enjoy the nostalgic feeling of playing it again.
                             </li>
                         </ul>
                         <p className="Left-padding">

@@ -11,7 +11,7 @@ const Now: React.FC = () => {
                     <h6 style={{textAlign: 'center'}}>
                         <a style={{margin: '0.3rem'}} href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">This is my now page!</a>
                         <br /><br />
-                        <p>Last updated: 4 April 2024</p>
+                        <p>Last updated: 28 July 2024</p>
                     </h6>
                 </div>
                 <div className="Now--non-white-section">
@@ -29,20 +29,20 @@ const Now: React.FC = () => {
                                 I also try to speak Dutch whenever possible
                             </li>
                             <li>
-                                Programming:  I've been learning Haskell and Rust.
-                                Haskell is interesting to me as it's a purely functional programming language and 
-                                Rust interests me as language used mostly for systems programming but with memory safety.
+                                Programming:  I've been reading The Pragmattic Programmer which I would recommend.
+                                Afterwards I plan to look into SQL a bit more deeply.
                             </li>
                             <li>
-                                Gaming:  At the moment I'm playing Metroid Prime.  
-                                The one originally made for GameCube but I have the Switch HD remake.  
-                                I played it as a kid and I enjoy the nostalgic feeling of playing it again.
+                                Gaming:  At the moment I'm playing Red Dead Redemption, the first one.  
+                                I never played either Red Dead Redemptions when they first came out but this 
+                                one is quite fun and makes me excited for the second.  I'm also looking forward 
+                                to "The Legend of Zelda: Echoes of Wisdom" as I'm a big Legend of Zelda fan.
                             </li>
                         </ul>
                         <p className="Left-padding">
                             Otherwise I spend my free time however I want to.  
                             This includes spending time with my wife, cat, and friends, exercising, reading,
-                            watching Netflix, and anything else that I decide I want to do. 
+                            watching TV, and anything else that I decide I want to do. 
                         </p>
                     </div>
                 </div>

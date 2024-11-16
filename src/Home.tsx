@@ -14,6 +14,7 @@ import randomGif from "./randomGif.jpg";
 import indecisionPhoto from "./indecisionPhoto.jpg";
 import expensifyPhoto from "./expensifyPhoto.jpg";
 import reactFakeStore from "./reactFakeStore.jpg";
+import storyTranslator from "./storyTranslator.jpg";
 import "./Home.css";
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -71,6 +72,23 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 A calendar to keep track of your favorite performers.
+              </CardContent>
+            </Card>
+          </a>
+          <a
+            href="https://story-translator.sheameyers.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card className={classes.root}>
+              <CardHeader title="Story Translator" />
+              <CardMedia
+                className={classes.media}
+                image={storyTranslator}
+                title="Story Translator"
+              />
+              <CardContent>
+                Displays a story as well as it's translation
               </CardContent>
             </Card>
           </a>

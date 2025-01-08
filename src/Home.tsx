@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         </div>
         <div className="Projects-portion--projects">
           <a
-            href="https://www.ticketmastercalendar.com/"
+            href="https://ticketmaster-calendar.sheameyers.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -93,7 +93,7 @@ const Home: React.FC = () => {
             </Card>
           </a>
           <a
-            href="https://findagiphy.com/"
+            href="https://random-gif.sheameyers.com/"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -11,7 +11,7 @@ const Now: React.FC = () => {
                     <h6 style={{textAlign: 'center'}}>
                         <a style={{margin: '0.3rem'}} href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">This is my now page!</a>
                         <br /><br />
-                        <p>Last updated: 16 November 2024</p>
+                        <p>Last updated: 8 January 2025</p>
                     </h6>
                 </div>
                 <div className="Now--non-white-section">
@@ -37,9 +37,9 @@ const Now: React.FC = () => {
                                 course I'm thinking of doing.
                             </li>
                             <li>
-                                Gaming:  At the moment I'm playing The Legend of Zelda: Echoes of Wisdom. 
-                                I'm a big Legend of Zelda fan so of course I started playing this game the day it was released
-                                and so far I'm enjoying it quite a bit!
+                                Gaming:  At the moment I'm playing Red Dead Redemption 2.
+                                I didn't play it when it originally came out, also not the first one, but I played the first one recently
+                                and really enjoyed it so now I'm playing the second one and enjoying it as well.
                             </li>
                         </ul>
                         <p className="Left-padding">

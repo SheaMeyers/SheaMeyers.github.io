@@ -1,33 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.52e59acb.chunk.css",
-    "main.js": "/static/js/main.aadd9db1.chunk.js",
-    "main.js.map": "/static/js/main.aadd9db1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cf61572a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cf61572a.js.map",
-    "static/css/2.9e9041ed.chunk.css": "/static/css/2.9e9041ed.chunk.css",
-    "static/js/2.176690fb.chunk.js": "/static/js/2.176690fb.chunk.js",
-    "static/js/2.176690fb.chunk.js.map": "/static/js/2.176690fb.chunk.js.map",
+    "main.css": "/static/css/main.20010ec4.css",
+    "main.js": "/static/js/main.dcdeb72e.js",
+    "static/media/tmCalendar.jpg": "/static/media/tmCalendar.3930af90713f48779f26.jpg",
+    "static/media/homePhoto.jpg": "/static/media/homePhoto.fc6b5655836f36f6b65d.jpg",
+    "static/media/storyTranslator.jpg": "/static/media/storyTranslator.5d700926e0a476ed8ff1.jpg",
+    "static/media/randomGif.jpg": "/static/media/randomGif.d3b0c654c1b48d0f4715.jpg",
+    "static/media/pizzaPhoto.jpg": "/static/media/pizzaPhoto.41be40de7086b254ffc8.jpg",
+    "static/media/reactFakeStore.jpg": "/static/media/reactFakeStore.2bdb53ecd970f2126221.jpg",
+    "static/media/expensifyPhoto.jpg": "/static/media/expensifyPhoto.9cba4d7c8c6a5c35f711.jpg",
+    "static/media/salaryPhoto.jpg": "/static/media/salaryPhoto.90c03d00deb9dff617bf.jpg",
+    "static/media/indecisionPhoto.jpg": "/static/media/indecisionPhoto.e00ff58a933d7da47bf8.jpg",
+    "static/media/dutchPractice.jpg": "/static/media/dutchPractice.1f8d31ef47cb4fea60e4.jpg",
+    "static/media/dateDiff.jpg": "/static/media/dateDiff.d262275b225d074818e2.jpg",
     "index.html": "/index.html",
-    "static/css/2.9e9041ed.chunk.css.map": "/static/css/2.9e9041ed.chunk.css.map",
-    "static/css/main.52e59acb.chunk.css.map": "/static/css/main.52e59acb.chunk.css.map",
-    "static/js/2.176690fb.chunk.js.LICENSE.txt": "/static/js/2.176690fb.chunk.js.LICENSE.txt",
-    "static/media/dateDiff.d262275b.jpg": "/static/media/dateDiff.d262275b.jpg",
-    "static/media/expensifyPhoto.9cba4d7c.jpg": "/static/media/expensifyPhoto.9cba4d7c.jpg",
-    "static/media/homePhoto.fc6b5655.jpg": "/static/media/homePhoto.fc6b5655.jpg",
-    "static/media/indecisionPhoto.e00ff58a.jpg": "/static/media/indecisionPhoto.e00ff58a.jpg",
-    "static/media/pizzaPhoto.41be40de.jpg": "/static/media/pizzaPhoto.41be40de.jpg",
-    "static/media/randomGif.d3b0c654.jpg": "/static/media/randomGif.d3b0c654.jpg",
-    "static/media/reactFakeStore.2bdb53ec.jpg": "/static/media/reactFakeStore.2bdb53ec.jpg",
-    "static/media/salaryPhoto.90c03d00.jpg": "/static/media/salaryPhoto.90c03d00.jpg",
-    "static/media/storyTranslator.5d700926.jpg": "/static/media/storyTranslator.5d700926.jpg",
-    "static/media/tmCalendar.3930af90.jpg": "/static/media/tmCalendar.3930af90.jpg"
+    "main.20010ec4.css.map": "/static/css/main.20010ec4.css.map",
+    "main.dcdeb72e.js.map": "/static/js/main.dcdeb72e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.cf61572a.js",
-    "static/css/2.9e9041ed.chunk.css",
-    "static/js/2.176690fb.chunk.js",
-    "static/css/main.52e59acb.chunk.css",
-    "static/js/main.aadd9db1.chunk.js"
+    "static/css/main.20010ec4.css",
+    "static/js/main.dcdeb72e.js"
   ]
 }

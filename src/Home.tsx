@@ -15,6 +15,7 @@ import indecisionPhoto from "./indecisionPhoto.jpg";
 import expensifyPhoto from "./expensifyPhoto.jpg";
 import reactFakeStore from "./reactFakeStore.jpg";
 import storyTranslator from "./storyTranslator.jpg";
+import dutchPractice from "./dutchPractice.jpg";
 import "./Home.css";
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -58,6 +59,23 @@ const Home: React.FC = () => {
           <br />
         </div>
         <div className="Projects-portion--projects">
+          <a
+            href="https://dutch-practice.sheameyers.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card className={classes.root}>
+              <CardHeader title="Dutch Practice" />
+              <CardMedia
+                className={classes.media}
+                image={dutchPractice}
+                title="Dutch Practice"
+              />
+              <CardContent>
+                Helps you to learn Dutch prepositions
+              </CardContent>
+            </Card>
+          </a>
           <a
             href="https://ticketmaster-calendar.sheameyers.com/"
             target="_blank"

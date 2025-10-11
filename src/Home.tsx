@@ -72,7 +72,7 @@ const Home: React.FC = () => {
                 title="Dutch Practice"
               />
               <CardContent>
-                Helps you to learn Dutch prepositions
+                Activities to help you practice Dutch
               </CardContent>
             </Card>
           </a>

@@ -11,7 +11,7 @@ const Now: React.FC = () => {
                     <h6 style={{textAlign: 'center'}}>
                         <a style={{margin: '0.3rem'}} href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">This is my now page!</a>
                         <br /><br />
-                        <p>Last updated: 11 October 2025</p>
+                        <p>Last updated: 21 October 2025</p>
                     </h6>
                 </div>
                 <div className="Now--non-white-section">
@@ -28,7 +28,7 @@ const Now: React.FC = () => {
                                 Learning Dutch:  I do this by reading books, watching TV, and writing.  
                                 I also try to speak Dutch whenever possible.  Right now I'm reading
                                 The Witcher series (in Dutch), watching the Dutch TV show Undercover, and translating 
-                                "Meditations" by Marcus Aurelius from English into Dutch.
+                                "The Trial" by Franz Kafka from English into Dutch.
                             </li>
                             <li>
                                 Programming:  I just built a new project at 

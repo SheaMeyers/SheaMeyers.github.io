@@ -60,19 +60,19 @@ const Home: React.FC = () => {
         </div>
         <div className="Projects-portion--projects">
           <a
-            href="https://practicedutchexercises.com/"
+            href="https://dutchpractice.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Card className={classes.root}>
-              <CardHeader title="Practice Dutch Exercises" />
+              <CardHeader title="Dutch Practice" />
               <CardMedia
                 className={classes.media}
                 image={dutchPractice}
-                title="Practice Dutch Exercises"
+                title="Dutch Practice"
               />
               <CardContent>
-                Exercises to help you practice Dutch
+                Practice Dutch with a variety of different activities
               </CardContent>
             </Card>
           </a>

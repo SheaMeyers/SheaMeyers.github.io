@@ -32,7 +32,7 @@ const Now: React.FC = () => {
                             </li>
                             <li>
                                 Programming:  I just built a new project at 
-                                <a style={{margin: '0.3rem'}} href="https://dutch-practice.sheameyers.com/" target="_blank" rel="noopener noreferrer">Dutch Practice</a> <br />
+                                <a style={{margin: '0.3rem'}} href="https://dutchpractice.com/" target="_blank" rel="noopener noreferrer">Dutch Practice</a> <br />
                                 I'm also planning to add more activities to the website.
                             </li>
                             <li>

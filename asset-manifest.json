@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.20010ec4.css",
-    "main.js": "/static/js/main.2129760a.js",
+    "main.css": "/static/css/main.ac4d8d5d.css",
+    "main.js": "/static/js/main.7e1f13dd.js",
+    "static/media/homePhoto.jpg": "/static/media/homePhoto.1d55214429b18718715c.jpg",
     "static/media/tmCalendar.jpg": "/static/media/tmCalendar.3930af90713f48779f26.jpg",
-    "static/media/homePhoto.jpg": "/static/media/homePhoto.fc6b5655836f36f6b65d.jpg",
     "static/media/storyTranslator.jpg": "/static/media/storyTranslator.5d700926e0a476ed8ff1.jpg",
     "static/media/randomGif.jpg": "/static/media/randomGif.d3b0c654c1b48d0f4715.jpg",
     "static/media/pizzaPhoto.jpg": "/static/media/pizzaPhoto.41be40de7086b254ffc8.jpg",
@@ -14,11 +14,11 @@
     "static/media/dutchPractice.jpg": "/static/media/dutchPractice.1f8d31ef47cb4fea60e4.jpg",
     "static/media/dateDiff.jpg": "/static/media/dateDiff.d262275b225d074818e2.jpg",
     "index.html": "/index.html",
-    "main.20010ec4.css.map": "/static/css/main.20010ec4.css.map",
-    "main.2129760a.js.map": "/static/js/main.2129760a.js.map"
+    "main.ac4d8d5d.css.map": "/static/css/main.ac4d8d5d.css.map",
+    "main.7e1f13dd.js.map": "/static/js/main.7e1f13dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.20010ec4.css",
-    "static/js/main.2129760a.js"
+    "static/css/main.ac4d8d5d.css",
+    "static/js/main.7e1f13dd.js"
   ]
 }

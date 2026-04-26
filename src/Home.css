@@ -13,10 +13,6 @@ a:hover {
     height: 100%;
 }
 
-.Photo {
-    width: 100%;
-}
-
 .Main-portion {
     position: relative;
     text-align: center;
@@ -24,20 +20,24 @@ a:hover {
     text-shadow: 0.3vw 0.3vw #000000;
 }
 
-.Main-portion--name {
+.Main-portion__photo {
+    width: 100%;
+}
+
+.Main-portion__name {
     width: 80%;
     font-size: 7vw;
     position: absolute;
-    top: 10%;
+    top: 23%;
     left: 60%;
     transform: translate(-50%, -50%);
 }
 
-.Main-portion--job {
+.Main-portion__job {
     width: 80%;
     font-size: 4vw;
     position: absolute;
-    top: 42%;
+    top: 54%;
     left: 60%;
     transform: translate(-50%, -50%);
 }

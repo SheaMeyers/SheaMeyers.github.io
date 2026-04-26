@@ -43,13 +43,13 @@ const Home: React.FC = () => {
       <HeaderBar />
       <div className="Main-portion">
         <img
-          className="Photo"
+          className="Main-portion__photo"
           src={homePhoto}
           alt="Shea Meyers"
           title="Shea Meyers"
         />
-        <h1 className="Main-portion--name">Shea Meyers</h1>
-        <h2 className="Main-portion--job">Web Developer</h2>
+        <h1 className="Main-portion__name">Shea Meyers</h1>
+        <h2 className="Main-portion__job">Web Developer</h2>
       </div>
       <div className="Projects-portion">
         <div>

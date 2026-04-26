@@ -11,7 +11,7 @@ const Now: React.FC = () => {
                     <h6 style={{textAlign: 'center'}}>
                         <a style={{margin: '0.3rem'}} href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">This is my now page!</a>
                         <br /><br />
-                        <p>Last updated: 21 October 2025</p>
+                        <p>Last updated: 26 April 2026</p>
                     </h6>
                 </div>
                 <div className="Now--non-white-section">
@@ -25,9 +25,14 @@ const Now: React.FC = () => {
                         <h4 className="Left-padding">So, what I'm doing:</h4>
                         <ul>
                             <li>
+                                Baby Prep!
+                                My wife is recently pregnant so we are doing all we can to prepare.
+                                Thankfully we have good friends who have given us a lot of second hand stuff that we are so grateful to get.
+                            </li>
+                            <li>
                                 Learning Dutch:  I do this by reading books, watching TV, and writing.  
                                 I also try to speak Dutch whenever possible.  Right now I'm reading
-                                The Witcher series (in Dutch), watching the Dutch TV show Undercover, and translating 
+                                The Witcher series (in Dutch), watching the Dutch TV show Dertigers, and translating 
                                 "The Trial" by Franz Kafka from English into Dutch.
                             </li>
                             <li>
@@ -37,7 +42,7 @@ const Now: React.FC = () => {
                             </li>
                             <li>
                                 Gaming:  At the moment I'm playing The Witcher #3: Wild Hunt.
-                                I didn't play it when it originally came out but I'm playing it now and really enjoying it
+                                I've beaten it, including the expansions, once before but I found it so fun I'm playing it again
                             </li>
                         </ul>
                         <p className="Left-padding">

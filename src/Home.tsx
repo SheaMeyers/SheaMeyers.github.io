@@ -21,11 +21,17 @@ import "./Home.css";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      width: "40vw",
-      margin: "20px",
+      width: "100%",
+      margin: 0,
       cursor: "pointer",
+      borderRadius: 32,
+      overflow: "hidden",
+      boxShadow: "0 24px 60px rgba(15, 23, 42, 0.1)",
+      transition: "transform 0.2s ease, box-shadow 0.2s ease",
+      backgroundColor: "#ffffff",
       "&:hover": {
-        transform: "scale(1.05)",
+        transform: "translateY(-4px)",
+        boxShadow: "0 28px 70px rgba(15, 23, 42, 0.15)",
       },
     },
     media: {

@@ -107,6 +107,12 @@ html, body, #root {
   flex: 1 1 calc(50% - 24px);
   max-width: 520px;
   min-width: 280px;
+  text-decoration: none;
+}
+
+.Projects-portion--projects > a:hover,
+.Projects-portion--projects > a:focus {
+  text-decoration: none;
 }
 
 .Projects-portion--projects > a > .MuiCard-root {

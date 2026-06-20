@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme: Theme) =>
       transition: "transform 0.2s ease, box-shadow 0.2s ease",
       backgroundColor: "#ffffff",
       "&:hover": {
-        transform: "translateY(-4px)",
+        transform: "translateY(-4px) scale(1.03)",
         boxShadow: "0 28px 70px rgba(15, 23, 42, 0.15)",
       },
     },

@@ -51,17 +51,34 @@ html, body, #root {
 }
 
 .Main-portion__name {
-  top: 22%;
+  top: 4%;
   margin: 0;
   font-size: clamp(3rem, 7vw, 5.5rem);
   letter-spacing: 0.08em;
+  line-height: 1.02;
+  max-width: 90%;
 }
 
 .Main-portion__job {
-  top: 44%;
+  top: 52%;
   margin: 0;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 500;
+  line-height: 1.1;
+  max-width: 90%;
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .Main-portion__name {
+    top: 16%;
+    font-size: clamp(2.5rem, 11vw, 4.2rem);
+  }
+
+  .Main-portion__job {
+    top: 55%;
+    font-size: clamp(1.2rem, 5vw, 2rem);
+  }
 }
 
 .Projects-portion {

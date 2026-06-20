@@ -6,12 +6,11 @@ const Now: React.FC = () => {
     return (
         <div className="Now">
             <HeaderBar />
-            <div className="Now--white-section">
-                <h6 style={{textAlign: 'center'}}>
-                    <a style={{margin: '0.3rem'}} href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">This is my now page!</a>
-                    <br /><br />
+            <div className="Now--white-section Now--hero-section">
+                <div className="Now--hero-content">
+                    <a href="https://nownownow.com/p/dYg2" target="_blank" rel="noopener noreferrer">This is my now page!</a>
                     <p>Last updated: 26 April 2026</p>
-                </h6>
+                </div>
             </div>
             <div className="Now--non-white-section">
                 <h2 className="Now--header">What am I doing now?</h2>

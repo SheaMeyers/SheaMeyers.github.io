@@ -1,78 +1,100 @@
 html, body, #root {
-    height: 100%;
-}
-
-a:hover {
-    text-decoration: none;
+  height: 100%;
 }
 
 .Home-body {
-    display: flex;
-    flex-shrink: 0;
-    flex-direction: column;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .Main-portion {
-    position: relative;
-    text-align: center;
-    color: white;
-    text-shadow: 0.3vw 0.3vw #000000;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.Main-portion::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.18), rgba(15, 23, 42, 0.55));
+  z-index: 1;
 }
 
 .Main-portion__photo {
-    width: 100%;
+  width: 100%;
+  max-height: 72vh;
+  object-fit: cover;
+  display: block;
+}
+
+.Main-portion__name,
+.Main-portion__job {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-shadow: 0 24px 40px rgba(15, 23, 42, 0.35);
 }
 
 .Main-portion__name {
-    width: 80%;
-    font-size: 7vw;
-    position: absolute;
-    top: 23%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+  top: 38%;
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  letter-spacing: 0.08em;
 }
 
 .Main-portion__job {
-    width: 80%;
-    font-size: 4vw;
-    position: absolute;
-    top: 54%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+  top: 56%;
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 500;
 }
 
 .Projects-portion {
-    background-color: #ffffff;
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-direction: column;
-    align-items: center;
+  background: #f8fbff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px 64px;
+  gap: 32px;
 }
 
 .Projects-portion--title {
-    margin: 20px;
-    font-size: 3rem;
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 2.8rem);
 }
 
 .Projects-portion--sub-title {
-    text-align: center;
-    width: 100%;
-    padding: 20px;
-    margin: 0;
-    font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 10px;
+  margin: 0;
+  font-size: 1.2rem;
+  color: #475569;
 }
 
 .Projects-portion--projects {
-    width: 100%;
-    background-color: #ccebff;
-    display: flex;
-    flex-shrink: 0;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 0;
 }
 
-.navbar {
-    flex-shrink: 0;
+.Projects-portion--projects > a {
+  display: block;
+  flex: 1 1 calc(50% - 24px);
+  max-width: 520px;
+  min-width: 280px;
+}
+
+.Projects-portion--projects > a > .MuiCard-root {
+  width: 100%;
 }

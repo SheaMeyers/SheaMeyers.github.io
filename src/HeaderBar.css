@@ -1,13 +1,26 @@
 .navbar {
-    width: 100%;
-    background-color: #b3b3b3;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
 }
 
 .nav-link {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0f172a !important;
+  margin-right: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .navbar-nav .nav-link {
-    padding: 1rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.nav-link:hover {
+  color: #1d4ed8 !important;
 }

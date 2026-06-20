@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b9c7d26.css",
+    "main.css": "/static/css/main.6de4bc30.css",
     "main.js": "/static/js/main.6a349109.js",
     "static/media/homePhoto.jpg": "/static/media/homePhoto.1d55214429b18718715c.jpg",
     "static/media/tmCalendar.jpg": "/static/media/tmCalendar.3930af90713f48779f26.jpg",
@@ -14,11 +14,11 @@
     "static/media/dutchPractice.jpg": "/static/media/dutchPractice.1f8d31ef47cb4fea60e4.jpg",
     "static/media/dateDiff.jpg": "/static/media/dateDiff.d262275b225d074818e2.jpg",
     "index.html": "/index.html",
-    "main.5b9c7d26.css.map": "/static/css/main.5b9c7d26.css.map",
+    "main.6de4bc30.css.map": "/static/css/main.6de4bc30.css.map",
     "main.6a349109.js.map": "/static/js/main.6a349109.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b9c7d26.css",
+    "static/css/main.6de4bc30.css",
     "static/js/main.6a349109.js"
   ]
 }

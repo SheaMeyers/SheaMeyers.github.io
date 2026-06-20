@@ -6,6 +6,10 @@
   justify-content: center;
   gap: 20px;
   padding: 48px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
   text-align: center;
   color: #0f172a;
 }

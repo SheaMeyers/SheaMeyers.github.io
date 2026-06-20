@@ -4,8 +4,10 @@
   align-items: center;
   gap: 24px;
   padding: 32px 16px 64px;
-  max-width: 1080px;
+  max-width: 1400px;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .About-me-section,

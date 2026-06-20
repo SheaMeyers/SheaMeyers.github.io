@@ -8,12 +8,14 @@ html, body, #root {
   min-height: 100vh;
   max-width: 1400px;
   margin: 0 auto;
+  background: linear-gradient(180deg, #eef7ff 0%, #d7ecff 20%, #f2f8ff 44%, #dbefff 70%, #f8fbff 100%);
 }
 
 .Main-portion {
   position: relative;
   text-align: center;
   color: white;
+  background: transparent;
 }
 
 .Main-portion::before {
@@ -55,7 +57,7 @@ html, body, #root {
 }
 
 .Projects-portion {
-  background: #f8fbff;
+  background: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;

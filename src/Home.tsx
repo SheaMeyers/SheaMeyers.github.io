@@ -1,6 +1,5 @@
 import React from "react";
 import HeaderBar from "./HeaderBar";
-import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
@@ -18,31 +17,7 @@ import storyTranslator from "./storyTranslator.jpg";
 import dutchPractice from "./dutchPractice.jpg";
 import "./Home.css";
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      width: "100%",
-      margin: 0,
-      cursor: "pointer",
-      borderRadius: 32,
-      overflow: "hidden",
-      boxShadow: "0 24px 60px rgba(15, 23, 42, 0.1)",
-      transition: "transform 0.2s ease, box-shadow 0.2s ease",
-      backgroundColor: "#ffffff",
-      "&:hover": {
-        transform: "translateY(-4px) scale(1.03)",
-        boxShadow: "0 28px 70px rgba(15, 23, 42, 0.15)",
-      },
-    },
-    media: {
-      height: 0,
-      paddingTop: "56.25%", // 16:9
-    },
-  })
-);
-
 const Home: React.FC = () => {
-  const classes = useStyles();
 
   return (
     <div className="Home-body">
@@ -70,10 +45,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Dutch Practice" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={dutchPractice}
                 title="Dutch Practice"
               />
@@ -87,10 +62,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Ticketmaster Calendar" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={tmCalendar}
                 title="Ticketmaster Calendar"
               />
@@ -104,10 +79,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Story Translator" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={storyTranslator}
                 title="Story Translator"
               />
@@ -121,10 +96,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Random Gif" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={randomGif}
                 title="Random Gif"
               />
@@ -138,10 +113,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="React Fake Store" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={reactFakeStore}
                 title="React Fake Store"
               />
@@ -155,10 +130,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Pizza Area Comparer" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={pizzaPhoto}
                 title="Pizza Area Comparer"
               />
@@ -172,10 +147,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Salary Breakdown" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={salaryPhoto}
                 title="Salary Breakdown"
               />
@@ -189,10 +164,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Date Difference" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={dateDiff}
                 title="Date Difference"
               />
@@ -213,10 +188,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Expensify App" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={expensifyPhoto}
                 title="Expensify App"
               />
@@ -230,10 +205,10 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card className={classes.root}>
+            <Card className="ProjectCard">
               <CardHeader title="Indecision App" />
               <CardMedia
-                className={classes.media}
+                className="ProjectCardMedia"
                 image={indecisionPhoto}
                 title="Indecision App"
               />

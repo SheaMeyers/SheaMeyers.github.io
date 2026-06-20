@@ -115,6 +115,27 @@ html, body, #root {
   text-decoration: none;
 }
 
+.ProjectCard {
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff;
+}
+
+.ProjectCard:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 28px 70px rgba(15, 23, 42, 0.15);
+}
+
+.ProjectCardMedia {
+  height: 0;
+  padding-top: 56.25%;
+}
+
 .Projects-portion--projects > a > .MuiCard-root {
   width: 100%;
 }

@@ -45,14 +45,14 @@ html, body, #root {
 }
 
 .Main-portion__name {
-  top: 38%;
+  top: 22%;
   margin: 0;
   font-size: clamp(3rem, 7vw, 5.5rem);
   letter-spacing: 0.08em;
 }
 
 .Main-portion__job {
-  top: 56%;
+  top: 44%;
   margin: 0;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 500;

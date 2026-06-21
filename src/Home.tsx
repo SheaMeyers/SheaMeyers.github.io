@@ -37,7 +37,6 @@ const Home: React.FC = () => {
           <h2 className="Projects-portion--title">Personal Projects</h2>
           <p>I mostly program with TypeScript/JavaScript (ReactJs and Node), C# (.Net), and Python (Django)</p>
           <p>The projects listed below are all ReactJS while other projects can be found on my Github.</p>
-          <br />
         </div>
         <div className="Projects-portion--projects">
           <a
@@ -180,7 +179,6 @@ const Home: React.FC = () => {
         <div>
           <h2 className="Projects-portion--title">Course Projects</h2>
           <p>These are projects I've built while following various courses</p>
-          <br />
         </div>
         <div className="Projects-portion--projects">
           <a

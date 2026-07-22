@@ -13,7 +13,7 @@ import randomGif from "./randomGif.jpg";
 import indecisionPhoto from "./indecisionPhoto.jpg";
 import expensifyPhoto from "./expensifyPhoto.jpg";
 import reactFakeStore from "./reactFakeStore.jpg";
-import storyTranslator from "./storyTranslator.jpg";
+import translatedStories from "./translatedStories.jpg";
 import dutchPractice from "./dutchPractice.jpg";
 import "./Home.css";
 
@@ -57,6 +57,23 @@ const Home: React.FC = () => {
             </Card>
           </a>
           <a
+            href="https://translatedstories.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card className="ProjectCard">
+              <CardHeader title="Translated Stores" />
+              <CardMedia
+                className="ProjectCardMedia"
+                image={translatedStories}
+                title="Translated Stores"
+              />
+              <CardContent>
+                Displays a story as well as it's translation
+              </CardContent>
+            </Card>
+          </a>
+          <a
             href="https://ticketmaster-calendar.sheameyers.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -70,23 +87,6 @@ const Home: React.FC = () => {
               />
               <CardContent>
                 A calendar to keep track of your favorite performers.
-              </CardContent>
-            </Card>
-          </a>
-          <a
-            href="https://story-translator.sheameyers.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className="ProjectCard">
-              <CardHeader title="Story Translator" />
-              <CardMedia
-                className="ProjectCardMedia"
-                image={storyTranslator}
-                title="Story Translator"
-              />
-              <CardContent>
-                Displays a story as well as it's translation
               </CardContent>
             </Card>
           </a>
